@@ -1,0 +1,750 @@
+{
+  "source_pdf": "rangers-safety-catalogue.pdf",
+  "source_original_filename": "all 10 page.pdf",
+  "source_pages": 1,
+  "products": [
+    {
+      "name": "SS-12S-S1P",
+      "slug": "ss-12s-s1p",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Safety footwear with a steel toe, steel midplate, beige suede cow leather and fabric upper, and dual-density PU sole.",
+      "full_description": "Safety footwear certified to EN ISO 20345:2022. It has a 200 J steel toe, 1100 N steel midplate, beige suede cow leather and fabric upper, dual-density PU sole described as slip- and oil-resistant, and an anti-static moulded EVA footbed.",
+      "specifications": {
+        "sku": "SS-12S-S1P",
+        "standards": [
+          "EN ISO 20345:2022 certified"
+        ],
+        "toe_protection": "Steel toe (200 J)",
+        "puncture_protection": "Steel midplate (1100 N)",
+        "upper_material": "Beige suede cow leather and fabric upper",
+        "sole": "Dual-density PU (DDPU), slip- and oil-resistant",
+        "footbed": "Anti-static moulded EVA footbed",
+        "sizes": "38-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-12s-s1p.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-12s-s1p.png"
+    },
+    {
+      "name": "SS-18-S1P",
+      "slug": "ss-18-s1p",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Safety footwear with steel toe and midplate, breathable fabric upper, and dual-density PU sole.",
+      "full_description": "Safety footwear certified to EN ISO 20345:2022. It has a 200 J steel toe, 1100 N steel midplate, breathable fabric upper with sandwich lining, dual-density PU sole described as slip- and oil-resistant, and an anti-static breathable PU foam footbed.",
+      "specifications": {
+        "sku": "SS-18-S1P",
+        "standards": [
+          "EN ISO 20345:2022 certified"
+        ],
+        "toe_protection": "Steel toe (200 J)",
+        "puncture_protection": "Steel midplate (1100 N)",
+        "upper_material": "Breathable fabric upper with sandwich lining",
+        "sole": "Dual-density PU (DDPU), slip- and oil-resistant",
+        "footbed": "Anti-static breathable PU foam footbed",
+        "sizes": "39-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-18-s1p.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-18-s1p.png"
+    },
+    {
+      "name": "SS-21-S3",
+      "slug": "ss-21-s3",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Water-resistant S3 footwear with lightweight plastic toe protection and microfiber leather upper.",
+      "full_description": "Water-resistant S3 safety footwear certified to EN ISO 20345:2022. It has a lightweight plastic toe and 1100 N steel midsole, microfiber leather upper, dual-density PU sole described as slip-, oil- and heat-resistant, and an anti-static breathable PU foam footbed.",
+      "specifications": {
+        "sku": "SS-21-S3",
+        "standards": [
+          "EN ISO 20345:2022 S3 (water-resistant)"
+        ],
+        "toe_protection": "Lightweight plastic toe",
+        "puncture_protection": "Steel midsole (1100 N)",
+        "upper_material": "Microfiber leather upper",
+        "sole": "Dual-density PU (DDPU), slip-, oil- and heat-resistant",
+        "footbed": "Anti-static breathable PU foam footbed",
+        "sizes": "39-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-21-s3.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-21-s3.png"
+    },
+    {
+      "name": "SS-25-S3",
+      "slug": "ss-25-s3",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Water-resistant S3 footwear with steel toe and midplate, printed split-leather upper, and dual-density PU sole.",
+      "full_description": "Water-resistant S3 safety footwear certified to EN ISO 20345:2022. It has a 200 J steel toe, 1100 N steel midplate, Barton printed split leather with side reflector, dual-density PU sole described as slip-, oil- and heat-resistant, and an anti-static moulded EVA footbed.",
+      "specifications": {
+        "sku": "SS-25-S3",
+        "standards": [
+          "EN ISO 20345:2022 S3 (water-resistant)"
+        ],
+        "toe_protection": "Steel toe (200 J)",
+        "puncture_protection": "Steel midplate (1100 N)",
+        "upper_material": "Barton printed split leather with side reflector",
+        "sole": "Dual-density PU (DDPU), slip-, oil- and heat-resistant",
+        "footbed": "Anti-static moulded EVA footbed",
+        "sizes": "38-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-25-s3.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-25-s3.png"
+    },
+    {
+      "name": "SS-26-S3",
+      "slug": "ss-26-s3",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Water-resistant S3 footwear with steel toe and midplate, printed split-leather upper, and dual-density PU sole.",
+      "full_description": "Water-resistant S3 safety footwear certified to EN ISO 20345:2022. It has a 200 J steel toe, 1100 N steel midplate, Barton printed split leather with side reflector, dual-density PU sole described as slip-, oil- and heat-resistant, and an anti-static moulded EVA footbed.",
+      "specifications": {
+        "sku": "SS-26-S3",
+        "standards": [
+          "EN ISO 20345:2022 S3 (water-resistant)"
+        ],
+        "toe_protection": "Steel toe (200 J)",
+        "puncture_protection": "Steel midplate (1100 N)",
+        "upper_material": "Barton printed split leather with side reflector",
+        "sole": "Dual-density PU (DDPU), slip-, oil- and heat-resistant",
+        "footbed": "Anti-static moulded EVA footbed",
+        "sizes": "38-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-26-s3.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-26-s3.png"
+    },
+    {
+      "name": "SS-49-S3",
+      "slug": "ss-49-s3",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Water-resistant S3 footwear with steel toe and midplate, printed microfiber upper, and dual-density PU sole.",
+      "full_description": "Water-resistant S3 safety footwear certified to EN ISO 20345:2022. It has a 200 J steel toe, 1100 N steel midplate, Barton printed microfiber with counter reflector, dual-density PU sole described as slip-, oil- and heat-resistant, and an anti-static moulded EVA footbed.",
+      "specifications": {
+        "sku": "SS-49-S3",
+        "standards": [
+          "EN ISO 20345:2022 S3 (water-resistant)"
+        ],
+        "toe_protection": "Steel toe (200 J)",
+        "puncture_protection": "Steel midplate (1100 N)",
+        "upper_material": "Barton printed microfiber with counter reflector",
+        "sole": "Dual-density PU (DDPU), slip-, oil- and heat-resistant",
+        "footbed": "Anti-static moulded EVA footbed",
+        "sizes": "38-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-49-s3.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-49-s3.png"
+    },
+    {
+      "name": "SS-59-S1P",
+      "slug": "ss-59-s1p",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Safety footwear with composite toe, Kevlar insole, mesh/TPU/leather upper, and quick-release lacing.",
+      "full_description": "Safety footwear certified to EN ISO 20345:2022. It has a 200 J composite toe and 1100 N Kevlar insole, mesh/TPU/leather upper with quick-release lacing, dual-density PU sole described as slip-, oil- and heat-resistant, and an anti-static breathable PU foam footbed.",
+      "specifications": {
+        "sku": "SS-59-S1P",
+        "standards": [
+          "EN ISO 20345:2022 certified"
+        ],
+        "toe_protection": "Composite toe (200 J)",
+        "puncture_protection": "Kevlar insole (1100 N)",
+        "upper_material": "Mesh/TPU/leather upper with quick-release lacing",
+        "sole": "Dual-density PU (DDPU), slip-, oil- and heat-resistant",
+        "footbed": "Anti-static breathable PU foam footbed",
+        "sizes": "39-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-59-s1p.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-59-s1p.png"
+    },
+    {
+      "name": "SS-136-S3",
+      "slug": "ss-136-s3",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Water-resistant S3 footwear with composite toe, Kevlar anti-puncture insert, and non-metallic leather upper.",
+      "full_description": "Water-resistant S3 safety footwear certified to EN ISO 20345:2022. It has a 200 J composite toe and Kevlar anti-puncture insert, 100% non-metallic crazy horse leather upper, dual-density PU sole described as slip-, oil- and heat-resistant, and an anti-static breathable PU foam footbed.",
+      "specifications": {
+        "sku": "SS-136-S3",
+        "standards": [
+          "EN ISO 20345:2022 S3 (water-resistant)"
+        ],
+        "toe_protection": "Composite toe (200 J)",
+        "puncture_protection": "Kevlar anti-puncture insert",
+        "upper_material": "100% non-metallic crazy horse leather",
+        "sole": "Dual-density PU (DDPU), slip-, oil- and heat-resistant",
+        "footbed": "Anti-static breathable PU foam footbed",
+        "sizes": "39-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-136-s3.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-136-s3.png"
+    },
+    {
+      "name": "SS-138-S3",
+      "slug": "ss-138-s3",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers WAQ",
+      "short_description": "Water-resistant S3 footwear with composite toe, lightweight Kevlar insole, and non-metallic nubuck upper.",
+      "full_description": "Water-resistant S3 safety footwear certified to EN ISO 20345:2022. It has a 200 J composite toe and lightweight Kevlar insole (1100 N), 100% non-metallic nubuck leather upper with ESD and counter reflector, lightweight RBPU sole described as slip- and oil-resistant and heat-resistant to 300 C, and an anti-static breathable PU foam footbed.",
+      "specifications": {
+        "sku": "SS-138-S3",
+        "standards": [
+          "EN ISO 20345:2022 S3 (water-resistant)"
+        ],
+        "toe_protection": "Composite toe (200 J)",
+        "puncture_protection": "Lightweight Kevlar insole (1100 N)",
+        "upper_material": "100% non-metallic nubuck leather",
+        "sole": "Lightweight RBPU, slip- and oil-resistant, heat-resistant to 300 C",
+        "features": [
+          "ESD",
+          "Counter reflector"
+        ],
+        "footbed": "Anti-static breathable PU foam footbed",
+        "sizes": "40-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers WAQ - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-138-s3.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-138-s3.png"
+    },
+    {
+      "name": "SS-161-S3",
+      "slug": "ss-161-s3",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers Parade",
+      "short_description": "Water-resistant S3 footwear with epoxy-coated stainless steel toe, 9-inch full-grain leather upper, and DDPU sole.",
+      "full_description": "Water-resistant S3 safety footwear certified to EN ISO 20345:2022. It has an epoxy-coated stainless steel toe (200 J), steel midplate (1100 N), full-grain leather upper (9-inch height), dual-density PU sole described as slip-, oil- and heat-resistant, and an anti-static moulded PU footbed.",
+      "specifications": {
+        "sku": "SS-161-S3",
+        "standards": [
+          "EN ISO 20345:2022 S3 (water-resistant)"
+        ],
+        "toe_protection": "Epoxy-coated stainless steel toe (200 J)",
+        "puncture_protection": "Steel midplate (1100 N)",
+        "upper_material": "Full-grain leather, 9-inch height",
+        "sole": "Dual-density PU (DDPU), slip-, oil- and heat-resistant",
+        "footbed": "Anti-static moulded PU footbed",
+        "sizes": "38-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers Parade - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ss-161-s3.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-ss-161-s3.png"
+    },
+    {
+      "name": "ABORA-9822",
+      "slug": "abora-9822",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers Parade",
+      "short_description": "S1P footwear with steel toe, metallic anti-puncture sole, and breathable microfiber/3D mesh upper for hot environments.",
+      "full_description": "The PDF lists EN ISO 20345:2022 S1P SR FO CI HI. It describes a steel toe (200 J) and steel midplate (1100 N), breathable microfibre upper with 3D mesh lining for hot environments, two-density polyurethane sole described as slip-, hydrocarbon-, cold- and heat-resistant, electrostatic dissipation with VPS arch-support system, and removable mesh over PU foam insole.",
+      "specifications": {
+        "sku": "ABORA-9822",
+        "standards": [
+          "EN ISO 20345:2022 S1P SR FO CI HI"
+        ],
+        "toe_protection": "Steel toe (200 J)",
+        "puncture_protection": "Steel midplate (1100 N)",
+        "upper_material": "Breathable microfibre upper with 3D mesh lining; suitable for hot environments",
+        "sole": "Two-density polyurethane, slip-, hydrocarbon-, cold- and heat-resistant",
+        "features": [
+          "Electrostatic dissipation (ESD)",
+          "VPS system for arch support",
+          "Removable mesh over PU foam insole"
+        ],
+        "sizes": "39-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers Parade - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-abora-9822.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-abora-9822.png"
+    },
+    {
+      "name": "ELECTA-9824",
+      "slug": "electa-9824",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers Parade",
+      "short_description": "Footwear with electrical insulation for dry environments, composite toe, and an insulating anti-puncture sole.",
+      "full_description": "The PDF lists EN ISO 20345:2022 SB SR FO PS CI HI E and ASTM F2413-18 M I C EH PR. It describes a composite toe and insulating fabric anti-puncture sole, electrical insulation in dry environments (1000 V AC-1500 V DC), fabric upper with injected PU front reinforcement, and two-density insulating polyurethane sole described as slip- and hydrocarbon-resistant and cold/heat-insulated. The design is non-magnetic and breathable, with a DRS shock-absorbent heel and VPS arch support.",
+      "specifications": {
+        "sku": "ELECTA-9824",
+        "standards": [
+          "EN ISO 20345:2022 SB SR FO PS CI HI E",
+          "ASTM F2413-18 M I C EH PR"
+        ],
+        "toe_protection": "Composite toe",
+        "puncture_protection": "Insulating fabric anti-puncture sole",
+        "upper_material": "Fabric upper with injected PU front reinforcement",
+        "sole": "Two-density insulating polyurethane, slip- and hydrocarbon-resistant, cold/heat-insulated",
+        "features": [
+          "Electrical insulation in dry environments (1000 V AC-1500 V DC)",
+          "Non-magnetic",
+          "Breathable",
+          "DRS shock-absorbent heel",
+          "VPS arch support"
+        ],
+        "sizes": "35-48",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers Parade - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-electa-9824.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-electa-9824.png"
+    },
+    {
+      "name": "ISTELLA-9814",
+      "slug": "istella-9814",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers Parade",
+      "short_description": "Ultralight 420 g footwear with composite toe, textile anti-puncture sole, ESD, and heat/cold insulation.",
+      "full_description": "Certified to EN ISO 20345:2022+A1:2024 S3S SR FO HRO CI SC. The PDF describes a composite toe and ultralight textile anti-puncture sole, water-repellent textile upper with TPU front reinforcement, lightweight EVA/nitrile rubber pad sole described as slip- and hydrocarbon-resistant, HRO outsole up to 300 C and cold insulation (CI), and an ultralight 420 g, non-magnetic, ESD design with abrasion-resistant stone guard.",
+      "specifications": {
+        "sku": "ISTELLA-9814",
+        "standards": [
+          "EN ISO 20345:2022+A1:2024 S3S SR FO HRO CI SC"
+        ],
+        "toe_protection": "Composite toe",
+        "puncture_protection": "Ultralight textile anti-puncture sole",
+        "upper_material": "Water-repellent textile with TPU front reinforcement",
+        "sole": "Lightweight EVA/nitrile rubber pad sole, slip- and hydrocarbon-resistant; HRO up to 300 C; cold-insulated (CI)",
+        "features": [
+          "Ultralight (420 g)",
+          "Non-magnetic",
+          "ESD",
+          "Abrasion-resistant stone guard"
+        ],
+        "sizes": "36-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers Parade - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-istella-9814.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-istella-9814.png"
+    },
+    {
+      "name": "ROOVER-1844",
+      "slug": "roover-1844",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers Parade",
+      "short_description": "S3 footwear with composite toe, Kevlar anti-puncture insert, water-repellent smooth cow-leather upper, and ESD.",
+      "full_description": "The PDF lists EN ISO 20345:2022 S3 S SR E FO ESD WPA and ASTM F2413-18 I C PR SD. It describes a 200 J composite toe and Kevlar anti-puncture insert, water-repellent smooth cow leather upper, dual-density PU sole described as slip- and oil/fuel-resistant, electrostatic dissipating (ESD) and non-magnetic construction, DRS 2 shock-absorption heel, VPS arch support, and Be flex 2.0 sole.",
+      "specifications": {
+        "sku": "ROOVER-1844",
+        "standards": [
+          "EN ISO 20345:2022 S3 S SR E FO ESD WPA",
+          "ASTM F2413-18 I C PR SD"
+        ],
+        "toe_protection": "Composite toe (200 J)",
+        "puncture_protection": "Kevlar anti-puncture insert",
+        "upper_material": "Water-repellent smooth cow leather",
+        "sole": "Two-density polyurethane, slip- and oil/fuel-resistant; Be flex 2.0 sole",
+        "features": [
+          "Electrostatic dissipating (ESD)",
+          "Non-magnetic",
+          "DRS 2 shock-absorption heel",
+          "VPS arch support"
+        ],
+        "sizes": "36-47",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers Parade - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-roover-1844.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-roover-1844.png"
+    },
+    {
+      "name": "SLAMER-8824",
+      "slug": "slamer-8824",
+      "category": "Safety Footwear",
+      "subcategory": "Rangers Parade",
+      "short_description": "S3 footwear with composite toe, non-metallic anti-puncture insert, rubber/EVA sole, and HRO outsole.",
+      "full_description": "Certified to EN ISO 20345:2011 S3 SRC HRO. It has a composite toe and non-metallic anti-puncture insert, water-repellent microfibre and split leather upper, rubber/EVA sole described as anti-slip and oil/fuel-resistant, HRO outsole with high resistance to tearing, and a non-magnetic design with added heel reinforcement for support.",
+      "specifications": {
+        "sku": "SLAMER-8824",
+        "standards": [
+          "EN ISO 20345:2011 S3 SRC HRO"
+        ],
+        "toe_protection": "Composite toe",
+        "puncture_protection": "Non-metallic anti-puncture insert",
+        "upper_material": "Water-repellent microfibre and split leather",
+        "sole": "Rubber/EVA, anti-slip and oil/fuel-resistant; HRO outsole with high resistance to tearing",
+        "features": [
+          "Non-magnetic",
+          "Added heel reinforcement for support"
+        ],
+        "sizes": "35-48",
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Rangers Parade - Safety Footwear",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "The PDF shows the SKU but no separate product title.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-slamer-8824.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-slamer-8824.png"
+    },
+    {
+      "name": "60/40 Polycotton Coverall",
+      "slug": "60-40-polycotton-coverall-ra-pcc160",
+      "category": "Protective Clothing",
+      "subcategory": "Coveralls",
+      "short_description": "60/40 polycotton coverall with 160 GSM fabric, two-way front zipper, utility pockets, and elasticized waist.",
+      "full_description": "The catalogue identifies a 60/40 Polycotton Coverall with SKU RA-PCC160. It lists EN ISO 13688:2013 (general requirements for protective clothing), a 60% polyester and 40% cotton blend, 160 GSM fabric, sanforized and mercerized fabric for minimum shrinkage and colour bleeding, a two-way front zipper, multiple utility pockets, and elasticized waist. Listed colours are Petrol Blue, Dark Blue, Grey, Beige, Orange and Red; sizes are Small-5XL.",
+      "specifications": {
+        "sku": "RA-PCC160",
+        "standards": [
+          "EN ISO 13688:2013 (general requirements for protective clothing)"
+        ],
+        "material": "60% polyester and 40% cotton blend",
+        "fabric_weight": "160 GSM",
+        "features": [
+          "Sanforized and mercerized for minimum shrinkage and colour bleeding",
+          "Two-way front zipper",
+          "Multiple utility pockets",
+          "Elasticized waist"
+        ],
+        "sizes": "Small-5XL",
+        "colours": [
+          "Petrol Blue",
+          "Dark Blue",
+          "Grey",
+          "Beige",
+          "Orange",
+          "Red"
+        ],
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "60/40 Polycotton Coverall",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "Product heading and SKU are printed in the same clothing column.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ra-pcc160.png",
+        "manual_review": false
+      },
+      "status": "inactive",
+      "manual_review": false,
+      "image_path": "storage/uploads/catalogue/rangers-ra-pcc160.png"
+    },
+    {
+      "name": "60/40 Polycotton Uniform (Pant / Shirt)",
+      "slug": "60-40-polycotton-uniform-pant-shirt-ra-pcu160",
+      "category": "Protective Clothing",
+      "subcategory": "Uniforms",
+      "short_description": "60/40 polycotton uniform with 160 GSM fabric, industrial stitching, multi-pocket shirt, and reinforced trouser seams.",
+      "full_description": "The catalogue identifies a 60/40 Polycotton Uniform (Pant / Shirt) with SKU RA-PCU160. It lists EN ISO 13688:2013 (general requirements for protective clothing), a 60% polyester and 40% cotton blend, 160 GSM fabric, sanforized and mercerized fabric for minimum shrinkage and colour bleeding, durable industrial stitching, multi-pocket shirt and reinforced trouser seams. Listed colours are Petrol Blue, Dark Blue, Grey, Beige, Orange and Red; sizes are Small-5XL.",
+      "specifications": {
+        "sku": "RA-PCU160",
+        "standards": [
+          "EN ISO 13688:2013 (general requirements for protective clothing)"
+        ],
+        "material": "60% polyester and 40% cotton blend",
+        "fabric_weight": "160 GSM",
+        "features": [
+          "Sanforized and mercerized for minimum shrinkage and colour bleeding",
+          "Durable industrial stitching",
+          "Multi-pocket shirt",
+          "Reinforced trouser seams"
+        ],
+        "sizes": "Small-5XL",
+        "colours": [
+          "Petrol Blue",
+          "Dark Blue",
+          "Grey",
+          "Beige",
+          "Orange",
+          "Red"
+        ],
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "60/40 Polycotton Uniform (Pant / Shirt)",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "Product heading and SKU are printed in the same clothing column.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ra-pcu160.png",
+        "manual_review": false
+      },
+      "status": "inactive",
+      "manual_review": false,
+      "image_path": "storage/uploads/catalogue/rangers-ra-pcu160.png"
+    },
+    {
+      "name": "100% Cotton Uniform (Pant / Shirt)",
+      "slug": "100-cotton-uniform-pant-shirt-ra-ctu240",
+      "category": "Protective Clothing",
+      "subcategory": "Uniforms",
+      "short_description": "100% premium cotton twill uniform with 240 GSM base fabric and heavier fabric options.",
+      "full_description": "The catalogue identifies a 100% Cotton Uniform (Pant / Shirt) with SKU RA-CTU240. It lists EN ISO 13688:2013, 100% premium cotton twill fabric, 240 GSM with 270 GSM and 300 GSM options for heavy-duty applications, and sanforized and mercerized fabric for minimum shrinkage and colour bleeding. Listed colours are Petrol Blue, Dark Blue, Grey, Beige, Orange and Red; sizes are Small-5XL.",
+      "specifications": {
+        "sku": "RA-CTU240",
+        "standards": [
+          "EN ISO 13688:2013"
+        ],
+        "material": "100% premium cotton twill",
+        "fabric_weight": "240 GSM; also available in 270 GSM and 300 GSM for heavy-duty applications",
+        "features": [
+          "Sanforized and mercerized for minimum shrinkage and colour bleeding"
+        ],
+        "sizes": "Small-5XL",
+        "colours": [
+          "Petrol Blue",
+          "Dark Blue",
+          "Grey",
+          "Beige",
+          "Orange",
+          "Red"
+        ],
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "100% Cotton Uniform (Pant / Shirt)",
+        "image_status": "extracted_and_matched_to_sku_card",
+        "extraction_notes": [
+          "Product heading and SKU are printed in the same clothing column.",
+          "Product image cropped from the PDF card positioned with this SKU."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-ra-ctu240.png",
+        "manual_review": false
+      },
+      "status": "inactive",
+      "manual_review": false,
+      "image_path": "storage/uploads/catalogue/rangers-ra-ctu240.png"
+    },
+    {
+      "name": "Fire-Retardant (FR) Coveralls",
+      "slug": "fire-retardant-coveralls-ra-frc200",
+      "category": "Protective Clothing",
+      "subcategory": "Fire-Retardant Coveralls",
+      "short_description": "FR coverall entry from a shared coveralls/uniforms family with multiple base-fabric and upgrade options.",
+      "full_description": "The catalogue groups Fire-Retardant (FR) Coveralls & Uniforms under SKUs RA-FRC200 / RA-FRU200. This entry uses RA-FRC200 based on the SKU suffix; the exact individual product title needs confirmation. The group lists EN ISO 13688:2013 and EN ISO 11612 (protection against heat and flame), treated 100% premium cotton fabric in 150 GSM, 210 GSM and 300 GSM options, IFR 320 GSM, Nomex IIA/IIIA, and FR/Anti-Static blends (EN 1149-5) as premium upgrades. Features listed include flame-resistant sewing threads, concealed heavy-duty brass zippers and reinforced stress points. Listed colours are Petrol Blue, Orange and Red, with custom colours and designs available upon request; sizes are Small-5XL.",
+      "specifications": {
+        "sku": "RA-FRC200",
+        "related_sku": "RA-FRU200",
+        "standards": [
+          "EN ISO 13688:2013",
+          "EN ISO 11612 (protection against heat and flame)",
+          "EN 1149-5 (listed for FR/Anti-Static blends)"
+        ],
+        "material": "Treated 100% premium cotton fabric; premium upgrades include IFR, Nomex IIA/IIIA, and FR/Anti-Static blends",
+        "fabric_weight": "Base options: 150 GSM, 210 GSM, 300 GSM; IFR upgrade: 320 GSM",
+        "features": [
+          "Flame-resistant sewing threads",
+          "Concealed heavy-duty brass zippers",
+          "Reinforced stress points"
+        ],
+        "sizes": "Small-5XL",
+        "colours": [
+          "Petrol Blue",
+          "Orange",
+          "Red",
+          "Custom colours and designs available upon request"
+        ],
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Fire-Retardant (FR) Coveralls & Uniforms",
+        "image_status": "shared_family_image_variant_review_required",
+        "extraction_notes": [
+          "Two SKUs are shown under one shared family heading; the coverall/uniform split is inferred from SKU suffixes and needs confirmation.",
+          "Product image cropped from the PDF card positioned with this SKU.",
+          "The PDF shows one shared FR family image; confirm the individual coverall/uniform variant mapping."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-fr-coveralls-uniforms.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-fr-coveralls-uniforms.png"
+    },
+    {
+      "name": "Fire-Retardant (FR) Uniform",
+      "slug": "fire-retardant-uniform-ra-fru200",
+      "category": "Protective Clothing",
+      "subcategory": "Fire-Retardant Uniforms",
+      "short_description": "FR uniform entry from a shared coveralls/uniforms family with multiple base-fabric and upgrade options.",
+      "full_description": "The catalogue groups Fire-Retardant (FR) Coveralls & Uniforms under SKUs RA-FRC200 / RA-FRU200. This entry uses RA-FRU200 based on the SKU suffix; the exact individual product title needs confirmation. The group lists EN ISO 13688:2013 and EN ISO 11612 (protection against heat and flame), treated 100% premium cotton fabric in 150 GSM, 210 GSM and 300 GSM options, IFR 320 GSM, Nomex IIA/IIIA, and FR/Anti-Static blends (EN 1149-5) as premium upgrades. Features listed include flame-resistant sewing threads, concealed heavy-duty brass zippers and reinforced stress points. Listed colours are Petrol Blue, Orange and Red, with custom colours and designs available upon request; sizes are Small-5XL.",
+      "specifications": {
+        "sku": "RA-FRU200",
+        "related_sku": "RA-FRC200",
+        "standards": [
+          "EN ISO 13688:2013",
+          "EN ISO 11612 (protection against heat and flame)",
+          "EN 1149-5 (listed for FR/Anti-Static blends)"
+        ],
+        "material": "Treated 100% premium cotton fabric; premium upgrades include IFR, Nomex IIA/IIIA, and FR/Anti-Static blends",
+        "fabric_weight": "Base options: 150 GSM, 210 GSM, 300 GSM; IFR upgrade: 320 GSM",
+        "features": [
+          "Flame-resistant sewing threads",
+          "Concealed heavy-duty brass zippers",
+          "Reinforced stress points"
+        ],
+        "sizes": "Small-5XL",
+        "colours": [
+          "Petrol Blue",
+          "Orange",
+          "Red",
+          "Custom colours and designs available upon request"
+        ],
+        "source_pdf": "rangers-safety-catalogue.pdf",
+        "source_page": 1,
+        "source_heading": "Fire-Retardant (FR) Coveralls & Uniforms",
+        "image_status": "shared_family_image_variant_review_required",
+        "extraction_notes": [
+          "Two SKUs are shown under one shared family heading; the coverall/uniform split is inferred from SKU suffixes and needs confirmation.",
+          "Product image cropped from the PDF card positioned with this SKU.",
+          "The PDF shows one shared FR family image; confirm the individual coverall/uniform variant mapping."
+        ],
+        "image_path": "storage/uploads/catalogue/rangers-fr-coveralls-uniforms.png",
+        "manual_review": true
+      },
+      "status": "inactive",
+      "manual_review": true,
+      "image_path": "storage/uploads/catalogue/rangers-fr-coveralls-uniforms.png"
+    }
+  ]
+}

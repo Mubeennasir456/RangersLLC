@@ -1,0 +1,17 @@
+RANGERS SAFETY SYSTEMS — UPDATED ADMIN ACCESS
+
+1. Extract the rangers-backend folder to C:\xampp\htdocs\rangers-backend
+2. Start Apache and MySQL in XAMPP.
+3. Import database/schema.sql into phpMyAdmin. If upgrading an existing install, also import database/cms_migration.sql.
+4. Confirm config/database.php matches your local MySQL settings.
+5. FIRST ADMIN SETUP: http://localhost/rangers-backend/admin/setup.php
+   Suggested email: admin@rangers.com
+   Password: Choose your own strong password (at least 12 characters). There is no preset password.
+   This setup page is available ONLY from localhost and ONLY while no admin exists.
+6. ADMIN LOGIN: http://localhost/rangers-backend/admin/
+7. WEBSITE: http://localhost/rangers-backend/site/index.html
+8. ROOT MENU (Website + Admin buttons): http://localhost/rangers-backend/
+
+If you already have an admin account, use its existing email/password. Setup will not overwrite it.
+The website has a prominent top-right Admin Panel button.
+No end-to-end XAMPP/MySQL testing has been performed in this environment.

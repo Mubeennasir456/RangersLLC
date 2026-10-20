@@ -1,0 +1,182 @@
+{
+  "source_pdf": "rangers-safety-catalogue.pdf",
+  "source_original_filename": "all 10 page.pdf",
+  "pages_in_attached_pdf": 1,
+  "identified_product_entries": 20,
+  "unique_skus": 20,
+  "categories": {
+    "Safety Footwear": 15,
+    "Protective Clothing": 5
+  },
+  "reconciliation": [
+    {
+      "sku": "SS-12S-S1P",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-18-S1P",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-21-S3",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-25-S3",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-26-S3",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-49-S3",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-59-S1P",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-136-S3",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-138-S3",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SS-161-S3",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "ABORA-9822",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "ELECTA-9824",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "ISTELLA-9814",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "ROOVER-1844",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "SLAMER-8824",
+      "page": 1,
+      "required_fields": "confirm product title (PDF provides SKU only)",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "RA-PCC160",
+      "page": 1,
+      "required_fields": "extracted",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "RA-PCU160",
+      "page": 1,
+      "required_fields": "extracted",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "RA-CTU240",
+      "page": 1,
+      "required_fields": "extracted",
+      "image": "extracted and matched to SKU card",
+      "import_status": "imported"
+    },
+    {
+      "sku": "RA-FRC200",
+      "page": 1,
+      "required_fields": "shared-family variant mapping needs review",
+      "image": "shared-family image; confirm SKU variant",
+      "import_status": "imported"
+    },
+    {
+      "sku": "RA-FRU200",
+      "page": 1,
+      "required_fields": "shared-family variant mapping needs review",
+      "image": "shared-family image; confirm SKU variant",
+      "import_status": "imported"
+    }
+  ],
+  "manual_review": [
+    "The attached file contains one wide PDF page, not ten pages.",
+    "Fifteen footwear product titles are not printed as text; each SKU is used as the temporary admin name.",
+    "RA-FRC200 and RA-FRU200 share one family image in the PDF; confirm the individual coverall/uniform variant assignment.",
+    "Product photos were extracted from the PDF's original embedded image objects and matched to product SKUs. The small source photos were enlarged to 2K for web display, which cannot restore photographic detail absent from the supplied PDF."
+  ],
+  "import_summary": {
+    "detected": 20,
+    "imported": 20,
+    "updated": 0,
+    "skipped_duplicates": 0,
+    "failed_validation": 0,
+    "manual_review": 17,
+    "images_attached": 20
+  },
+  "last_import_attempt": {
+    "imported": 0,
+    "skipped_duplicates": 20,
+    "failed_validation": 0,
+    "attempted_at": "2026-10-20T11:54:16+02:00"
+  },
+  "image_summary": {
+    "products_mapped": 20,
+    "unique_image_files": 19,
+    "shared_image_groups": 1,
+    "attached_to_products": 20,
+    "web_display_max_long_edge_px": 2048,
+    "source_resolution_enlargement_only": true
+  }
+}

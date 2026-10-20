@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1E4378">
+  <meta name="description" content="Rangers Safety Systems LLC exhibition catalogue for certified safety footwear and industrial workwear across the UAE and GCC.">
+  <title>Rangers Safety Systems LLC | Exhibition Catalogue</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    :root {
+      --sage: #8B9876;
+      --amber: #F8971D;
+      --brand-green: #438B3E;
+      --brand-blue: #1E4378;
+      --charcoal: #202522;
+      --bg-light: #F5F6F2;
+      --body: #303630;
+      --muted: #6B726B;
+      --line: #DDE1D8;
+      --font-heading: "Montserrat", sans-serif;
+      --font-body: "Roboto", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 92px; }
+    body {
+      min-width: 320px;
+      margin: 0;
+      color: var(--body);
+      background: var(--bg-light);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, h4, h5, h6 { margin: 0; font-family: var(--font-heading); }
+    p { margin: 0; }
+    a { color: inherit; text-decoration: none; }
+    button, input, select, textarea { font: inherit; }
+    button { cursor: pointer; }
+    img, svg { display: block; max-width: 100%; }
+    [hidden] { display: none !important; }
+    ::selection { color: #fff; background: var(--amber); }
+    :focus-visible { outline: 3px solid rgba(248, 151, 29, .65); outline-offset: 3px; }
+
+    .site-container { width: min(100% - 48px, 1320px); margin: 0 auto; }
+    .visually-hidden {
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      white-space: nowrap !important;
+      border: 0 !important;
+    }
+    .eyebrow {
+      color: var(--brand-green);
+      font-family: var(--font-heading);
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1.4;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .section-title {
+      color: var(--brand-blue);
+      font-size: clamp(30px, 3.2vw, 43px);
+      font-weight: 800;
+      letter-spacing: -.035em;
+      line-height: 1.15;
+    }
+    .section-lead { max-width: 690px; color: var(--muted); font-size: 16px; line-height: 1.8; }
+    .button {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 20px;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      font-family: var(--font-heading);
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.2;
+      text-align: center;
+      transition: color .2s ease, background-color .2s ease, border-color .2s ease, transform .2s ease, box-shadow .2s ease;
+    }
+    .button:hover { transform: translateY(-2px); }
+    .button svg { width: 16px; height: 16px; flex: 0 0 auto; }
+    .button-primary { color: #fff; background: var(--amber); box-shadow: 0 8px 20px rgba(248, 151, 29, .16); }
+    .button-primary:hover { color: #fff; background: #E0840E; box-shadow: 0 10px 24px rgba(248, 151, 29, .25); }
+    .button-blue { color: #fff; background: var(--brand-blue); }
+    .button-blue:hover { color: #fff; background: #16325C; }
+    .button-outline-light { color: #fff; border-color: rgba(255, 255, 255, .65); background: transparent; }
+    .button-outline-light:hover { color: var(--charcoal); border-color: #fff; background: #fff; }
+    .button-outline-blue { color: var(--brand-blue); border-color: rgba(30, 67, 120, .3); background: transparent; }
+    .button-outline-blue:hover { color: #fff; border-color: var(--brand-blue); background: var(--brand-blue); }
+    .button-text { display: inline-flex; align-items: center; gap: 8px; color: var(--brand-blue); font-family: var(--font-heading); font-size: 12px; font-weight: 800; }
+    .button-text svg { width: 15px; height: 15px; transition: transform .2s ease; }
+    .button-text:hover { color: var(--amber); }
+    .button-text:hover svg { transform: translateX(4px); }
+
+    .site-header {
+      position: sticky;
+      z-index: 1000;
+      top: 0;
+      width: 100%;
+      border-bottom: 1px solid rgba(32, 37, 34, .08);
+      background: rgba(255, 255, 255, .98);
+      transition: box-shadow .2s ease, background-color .2s ease;
+    }
+    .site-header.is-scrolled { background: rgba(255, 255, 255, .96); box-shadow: 0 7px 22px rgba(28, 37, 31, .08); }
+    .header-shell { display: flex; min-height: 82px; align-items: center; gap: 26px; }
+    .brand-lockup { display: inline-flex; min-width: 0; align-items: center; color: var(--brand-blue); }
+    .brand-lockup:hover { color: var(--brand-blue); }
+    .brand-logo { width: 260px; height: auto; }
+    .brand-symbol { width: 42px; height: 42px; flex: 0 0 auto; }
+    .brand-label { display: flex; flex-direction: column; line-height: 1.05; }
+    .brand-label strong { font-family: var(--font-heading); font-size: 16px; font-weight: 900; letter-spacing: .01em; }
+    .brand-label small { margin-top: 4px; color: var(--muted); font-family: var(--font-heading); font-size: 8px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    .main-nav { display: flex; align-items: center; justify-content: flex-end; gap: clamp(15px, 2vw, 28px); margin-left: auto; }
+    .nav-link {
+      position: relative;
+      padding: 8px 0;
+      color: #454C46;
+      font-family: var(--font-heading);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .035em;
+      white-space: nowrap;
+      transition: color .2s ease;
+    }
+    .nav-link::after { position: absolute; right: 0; bottom: 0; left: 0; height: 2px; content: ""; background: var(--amber); transform: scaleX(0); transform-origin: left; transition: transform .2s ease; }
+    .nav-link:hover, .nav-link.is-active { color: var(--brand-blue); }
+    .nav-link:hover::after, .nav-link.is-active::after { transform: scaleX(1); }
+    .nav-mobile-cta, .mobile-menu-toggle { display: none; }
+    .header-quote { min-height: 42px; padding: 10px 15px; font-size: 10px; white-space: nowrap; }
+    .admin-panel-nav { display:inline-flex; align-items:center; justify-content:center; padding:9px 13px; border:1px solid rgba(30,67,120,.28); border-radius:7px; color:var(--brand-blue); background:#F5F7FA; font-size:10px; font-weight:800; }
+    .admin-panel-nav::after { display:none; }
+    .admin-panel-nav:hover { color:#fff; background:var(--brand-blue); }
+
+    .hero {
+      position: relative;
+      isolation: isolate;
+      min-height: min(820px, calc(100svh - 82px));
+      min-height: max(610px, min(820px, calc(100svh - 82px)));
+      overflow: hidden;
+      color: #fff;
+      background: linear-gradient(125deg, #172E4E, var(--brand-blue) 62%, #326047);
+    }
+    .hero::before { position: absolute; z-index: -1; inset: 0; content: ""; background: linear-gradient(90deg, rgba(24, 28, 25, .9) 0%, rgba(24, 28, 25, .78) 48%, rgba(24, 28, 25, .48) 100%); }
+    .hero-inner { display: grid; min-height: inherit; grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr); align-items: center; gap: 30px; padding-top: 56px; padding-bottom: 56px; }
+    .hero-copy { max-width: 670px; animation: enter-copy .75s cubic-bezier(.2, .72, .25, 1) both; }
+    .hero-brand { margin-bottom: 18px; color: #D7E1D2; font-family: var(--font-heading); font-size: 12px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+    .hero h1 { max-width: 660px; color: #fff; font-size: clamp(42px, 5.4vw, 74px); font-weight: 900; letter-spacing: -.055em; line-height: 1.03; text-transform: uppercase; }
+    .hero-intro { max-width: 570px; margin-top: 23px; color: rgba(255, 255, 255, .88); font-size: 17px; font-weight: 300; line-height: 1.75; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+    .hero-actions .button { min-width: 166px; }
+    .hero-visual { display: flex; min-height: 445px; align-items: center; justify-content: flex-end; animation: enter-product .9s .1s cubic-bezier(.2, .72, .25, 1) both; }
+    .hero-visual .media-frame { width: min(100%, 530px); aspect-ratio: 3 / 2; height: auto; min-height: 0; overflow: hidden; border: 1px solid rgba(255,255,255,.24); border-radius: 18px; background: rgba(255,255,255,.08); box-shadow: 0 24px 55px rgba(0,0,0,.28); }
+    .hero-visual img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+    .hero-visual .media-fallback { inset: 12% 4%; color: #fff; border: 1px solid rgba(255, 255, 255, .26); background: rgba(32, 37, 34, .64); }
+    .hero-visual .fallback-mark { color: #fff; }
+    .hero-visual .fallback-label { color: rgba(255, 255, 255, .82); }
+    .hero-scroll { position: absolute; right: 28px; bottom: 27px; display: flex; align-items: center; gap: 10px; color: rgba(255, 255, 255, .67); font-family: var(--font-heading); font-size: 9px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; writing-mode: vertical-rl; }
+    .hero-scroll::after { width: 1px; height: 46px; content: ""; background: var(--amber); }
+
+    .about-section { padding: 108px 0; background: #fff; }
+    .about-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(390px, .96fr); align-items: center; gap: clamp(48px, 7vw, 96px); }
+    .about-copy { max-width: 600px; }
+    .about-copy .section-title { margin-top: 14px; }
+    .about-copy .section-lead { margin-top: 22px; }
+    .about-note { display: flex; align-items: center; gap: 15px; margin-top: 28px; color: var(--muted); font-family: var(--font-heading); font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+    .about-note::before { width: 42px; height: 2px; content: ""; background: var(--amber); }
+    .about-actions { margin-top: 30px; }
+    .about-image { position: relative; min-height: 420px; overflow: hidden; background: #DDE2D9; }
+    .about-brand-visual { display: grid; min-height: 320px; place-content: center; justify-items: center; gap: 22px; padding: 36px; background: #F5F6F2; text-align: center; }
+    .about-image.about-brand-visual img { width: min(100%, 510px); height: auto; min-height: 0; object-fit: contain; }
+    .about-brand-visual p { color: var(--brand-blue); font-family: var(--font-heading); font-size: 12px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .about-brand-visual::after { display: none; }
+    .about-image.about-brand-visual:hover img { transform: none; }
+    .about-image::after { position: absolute; right: 0; bottom: 0; left: 0; height: 28%; content: ""; pointer-events: none; background: linear-gradient(0deg, rgba(32, 37, 34, .27), transparent); }
+    .about-image img { width: 100%; height: 100%; min-height: 420px; object-fit: cover; transition: transform .7s ease; }
+    .about-image:hover img { transform: scale(1.025); }
+
+    .category-section { padding: 100px 0 106px; background: var(--bg-light); }
+    .section-heading-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; margin-bottom: 35px; }
+    .section-heading-copy { max-width: 740px; }
+    .section-heading-copy .section-title { margin-top: 13px; }
+    .section-heading-copy .section-lead { margin-top: 16px; }
+    .category-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+    .category-tile { position: relative; display: block; min-height: 355px; overflow: hidden; color: #fff; background: #53634D; }
+    .category-tile:hover { color: #fff; }
+    .category-tile .media-frame { position: absolute; inset: 0; background: #59644D; }
+    .category-tile .media-frame::after { position: absolute; inset: 0; content: ""; background: linear-gradient(0deg, rgba(15, 23, 18, .84) 0%, rgba(15, 23, 18, .06) 72%); }
+    .category-tile img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s cubic-bezier(.2, .72, .25, 1); }
+    .category-tile:hover img { transform: scale(1.04); }
+    .category-tile .media-fallback { z-index: 1; }
+    .category-tile-content { position: absolute; z-index: 2; right: 32px; bottom: 30px; left: 32px; pointer-events: none; }
+    .category-tile-label { display: block; margin-bottom: 9px; color: #F7BC6D; font-family: var(--font-heading); font-size: 10px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .category-tile h3 { max-width: 440px; color: #fff; font-size: clamp(23px, 2.5vw, 32px); font-weight: 800; letter-spacing: -.03em; line-height: 1.16; }
+    .category-tile p { max-width: 520px; margin-top: 10px; color: rgba(255, 255, 255, .85); font-size: 13px; line-height: 1.65; }
+    .category-tile-arrow { position: absolute; right: 31px; bottom: 34px; display: grid; width: 42px; height: 42px; place-items: center; border: 1px solid rgba(255,255,255,.62); border-radius: 50%; transition: color .2s ease, background .2s ease, transform .2s ease; }
+    .category-tile-arrow svg { width: 17px; height: 17px; }
+    .category-tile:hover .category-tile-arrow { color: var(--charcoal); background: #fff; transform: translateX(3px); }
+    .category-tile-content.has-arrow { right: 92px; }
+
+    .exhibition-section { padding: 100px 0 106px; background: #fff; }
+    .exhibition-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; margin-bottom: 31px; }
+    .exhibition-head .section-title { margin-top: 13px; }
+    .exhibition-head .section-lead { margin-top: 16px; }
+    .exhibition-actions { display: flex; flex-shrink: 0; flex-wrap: wrap; gap: 10px; }
+    .qr-section { padding: 76px 0; background: var(--bg-light); }
+    .qr-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(250px, .7fr); align-items: center; gap: 38px; }
+    .qr-copy .section-title { margin-top: 12px; }
+    .qr-copy .section-lead { margin-top: 14px; }
+    .qr-preview { width: 100%; height: 330px; border: 1px solid var(--line); background: #fff; }
+    .qr-link { display: inline-flex; margin-top: 18px; color: var(--brand-blue); font-family: var(--font-heading); font-size: 11px; font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+    .category-tabs { display: flex; flex-wrap: wrap; gap: 28px; margin-bottom: 25px; border-bottom: 1px solid var(--line); }
+    .category-tab { position: relative; min-height: 43px; padding: 0 0 11px; color: var(--muted); border: 0; background: transparent; font-family: var(--font-heading); font-size: 11px; font-weight: 700; text-align: left; transition: color .2s ease; }
+    .category-tab::after { position: absolute; right: 0; bottom: -1px; left: 0; height: 2px; content: ""; background: var(--amber); transform: scaleX(0); transform-origin: left; transition: transform .2s ease; }
+    .category-tab:hover, .category-tab.is-active { color: var(--brand-blue); }
+    .category-tab.is-active::after, .category-tab:hover::after { transform: scaleX(1); }
+    .product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+    .product-card { min-width: 0; overflow: hidden; border: 1px solid #E1E5DC; background: #fff; transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease; }
+    .product-card:hover { border-color: rgba(67, 139, 62, .45); box-shadow: 0 15px 35px rgba(37, 53, 40, .09); transform: translateY(-4px); }
+    .product-media { position: relative; display: block; width: 100%; aspect-ratio: 4 / 3; overflow: hidden; background: #ECEFE9; }
+    .product-media > .media-frame { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .product-media img { width: 100%; height: 100%; padding: 12px; object-fit: contain; transition: transform .45s ease; }
+    .product-card:hover .product-media img { transform: scale(1.045); }
+    .product-copy { padding: 20px 21px 22px; }
+    .product-brand { display: block; color: var(--brand-green); font-family: var(--font-heading); font-size: 9px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .product-copy h3 { margin-top: 8px; color: var(--brand-blue); font-size: 19px; font-weight: 800; letter-spacing: -.025em; line-height: 1.3; }
+    .product-category-name { display: block; margin-top: 6px; color: #778076; font-size: 11px; font-weight: 500; }
+    .product-copy p { min-height: 48px; margin-top: 13px; color: var(--muted); font-size: 12px; line-height: 1.65; }
+    .product-details-link { display: inline-flex; align-items: center; gap: 8px; margin-top: 17px; color: var(--brand-blue); font-family: var(--font-heading); font-size: 10px; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; }
+    .product-details-link svg { width: 14px; height: 14px; transition: transform .2s ease; }
+    .product-details-link:hover { color: var(--amber); }
+    .product-details-link:hover svg { transform: translateX(4px); }
+    .catalogue-more { display: flex; justify-content: center; margin-top: 32px; }
+    .listing-empty { grid-column: 1 / -1; padding: 35px 15px; color: var(--muted); text-align: center; }
+
+    .advantages-section { padding: 95px 0 100px; color: #fff; background: var(--charcoal); }
+    .advantages-section .section-title { color: #fff; }
+    .advantages-section .section-lead { margin-top: 17px; color: #BCC4BC; }
+    .advantages-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; margin-top: 46px; }
+    .advantage-item { padding-top: 19px; border-top: 2px solid rgba(248, 151, 29, .8); }
+    .advantage-item h3 { color: #fff; font-size: 16px; font-weight: 800; line-height: 1.4; }
+    .advantage-item p { margin-top: 11px; color: #B9C0B8; font-size: 12px; line-height: 1.75; }
+
+    .contact-cta { padding: 69px 0; color: #fff; background: var(--brand-blue); }
+    .contact-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+    .contact-cta h2 { max-width: 760px; color: #fff; font-size: clamp(25px, 3vw, 36px); font-weight: 800; letter-spacing: -.035em; line-height: 1.2; }
+    .contact-cta p { max-width: 690px; margin-top: 11px; color: rgba(255,255,255,.78); font-size: 14px; }
+    .contact-cta .button { flex-shrink: 0; }
+
+    .site-footer { padding: 64px 0 0; color: #DCE2D9; background: var(--charcoal); }
+    .footer-main { display: grid; grid-template-columns: minmax(240px, 1.2fr) minmax(140px, .7fr) minmax(260px, 1fr) minmax(165px, .75fr); gap: 40px; padding-bottom: 45px; }
+    .footer-brand { display: flex; align-items: center; gap: 10px; color: #fff; }
+    .footer-brand .brand-logo { width: 230px; padding: 3px 8px; border-radius: 2px; background: #fff; }
+    .footer-brand .brand-symbol { width: 38px; height: 38px; }
+    .footer-brand .brand-label strong { color: #fff; font-size: 15px; }
+    .footer-brand .brand-label small { color: #AEB8AD; }
+    .footer-about { max-width: 310px; margin-top: 17px; color: #AEB8AD; font-size: 12px; line-height: 1.75; }
+    .footer-heading { margin-bottom: 16px; color: #fff; font-family: var(--font-heading); font-size: 10px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    .footer-links { display: grid; gap: 9px; }
+    .footer-links a, .footer-contact a, .footer-contact address { color: #B9C1B8; font-size: 12px; line-height: 1.65; transition: color .2s ease; }
+    .footer-links a:hover, .footer-contact a:hover { color: #F6B253; }
+    .footer-contact address { margin: 0; font-style: normal; }
+    .footer-contact-list { display: grid; gap: 9px; }
+    .social-links { display: flex; align-items: center; gap: 9px; }
+    .social-link { display: grid; width: 35px; height: 35px; flex: 0 0 auto; place-items: center; border: 1px solid rgba(255,255,255,.22); border-radius: 50%; color: #fff; transition: color .2s ease, border-color .2s ease, background .2s ease, transform .2s ease; }
+    .social-link svg { width: 15px; height: 15px; }
+    a.social-link:hover { color: var(--charcoal); border-color: var(--amber); background: var(--amber); transform: translateY(-2px); }
+    .social-link.is-unavailable { color: #899288; border-color: rgba(255,255,255,.12); cursor: not-allowed; }
+    .social-note { margin-top: 11px; color: #899288; font-size: 10px; line-height: 1.6; }
+    .footer-bottom { display: flex; min-height: 58px; align-items: center; justify-content: space-between; gap: 18px; border-top: 1px solid rgba(255,255,255,.14); color: #969F95; font-size: 10px; }
+    .footer-bottom-right { display: flex; flex-wrap: wrap; gap: 18px; }
+
+    .media-frame { position: relative; overflow: hidden; }
+    .media-fallback { position: absolute; z-index: 2; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 22px; color: #576257; background: repeating-linear-gradient(135deg, #ECEFE9 0, #ECEFE9 12px, #E4E8E1 12px, #E4E8E1 24px); text-align: center; }
+    .fallback-mark { display: grid; width: 52px; height: 52px; place-items: center; border: 1px solid rgba(67, 139, 62, .35); border-radius: 50%; color: var(--brand-green); }
+    .fallback-mark svg { width: 23px; height: 23px; }
+    .fallback-label { max-width: 230px; color: #586257; font-family: var(--font-heading); font-size: 10px; font-weight: 800; letter-spacing: .1em; line-height: 1.5; text-transform: uppercase; }
+    .media-frame > img[hidden] { display: none; }
+
+    .page-intro { padding: 66px 0 50px; background: #fff; }
+    .breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin-bottom: 18px; color: #869086; font-size: 11px; }
+    .breadcrumbs a { color: var(--brand-blue); font-weight: 700; }
+    .breadcrumbs span { color: #A8AFA7; }
+    .page-intro h1 { margin-top: 12px; color: var(--brand-blue); font-size: clamp(34px, 4vw, 52px); font-weight: 900; letter-spacing: -.05em; line-height: 1.1; }
+    .page-intro .section-lead { margin-top: 15px; }
+    .listing-section { padding: 38px 0 100px; }
+    .listing-tools { display: flex; align-items: flex-start; justify-content: space-between; gap: 25px; margin-bottom: 25px; }
+    .listing-tools .category-tabs { flex: 1; margin-bottom: 0; }
+    .search-field { position: relative; display: flex; width: min(100%, 300px); min-height: 42px; flex: 0 0 260px; align-items: center; border: 1px solid #D7DDD5; background: #fff; }
+    .search-field svg { width: 16px; height: 16px; margin-left: 13px; color: #788277; }
+    .search-field input { width: 100%; min-width: 0; height: 40px; padding: 0 12px; border: 0; outline: 0; color: var(--body); background: transparent; font-size: 12px; }
+    .search-field input::placeholder { color: #929A90; }
+    .listing-section .product-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+    .exhibition-hero { position: relative; overflow: hidden; color: #fff; background: var(--brand-blue); }
+    .exhibition-hero::before { position: absolute; inset: 0; content: ""; pointer-events: none; background: linear-gradient(90deg, rgba(30,67,120,.96) 0%, rgba(30,67,120,.9) 55%, rgba(30,67,120,.68) 100%); }
+    .exhibition-hero-inner { position: relative; display: grid; min-height: 420px; grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr); align-items: center; gap: 40px; padding-top: 54px; padding-bottom: 54px; }
+    .exhibition-hero-copy { max-width: 700px; }
+    .exhibition-hero .eyebrow { color: #F6B253; }
+    .exhibition-hero h1 { margin-top: 14px; color: #fff; font-size: clamp(38px, 5vw, 60px); font-weight: 900; letter-spacing: -.05em; line-height: 1.04; }
+    .exhibition-hero p { max-width: 620px; margin-top: 17px; color: rgba(255,255,255,.83); font-size: 15px; line-height: 1.75; }
+    .exhibition-hero .exhibition-place { margin-top: 15px; color: rgba(255,255,255,.67); font-size: 11px; font-weight: 500; }
+    .exhibition-hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+    .exhibition-cover-image { display: flex; min-height: 300px; justify-content: flex-end; }
+    .exhibition-cover-image .media-frame { width: min(100%, 395px); height: 340px; background: transparent; }
+    .exhibition-cover-image img { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 20px 25px rgba(0,0,0,.27)); }
+    .exhibition-cover-image .media-fallback { color: #fff; border: 1px solid rgba(255,255,255,.2); background: rgba(255,255,255,.06); }
+    .exhibition-cover-image .fallback-label { color: rgba(255,255,255,.8); }
+    .exhibition-listing { padding: 62px 0 100px; background: #fff; }
+    .exhibition-listing .listing-tools { margin-top: 34px; }
+
+    .detail-page { padding: 30px 0 96px; }
+    .detail-page .breadcrumbs { margin-bottom: 27px; }
+    .detail-grid { display: grid; grid-template-columns: minmax(0, 1.04fr) minmax(360px, .96fr); gap: clamp(38px, 7vw, 85px); align-items: start; }
+    .detail-main-image { aspect-ratio: 1 / .88; border: 1px solid #E2E6DE; background: #fff; }
+    .detail-main-image img { width: 100%; height: 100%; padding: 22px; object-fit: contain; }
+    .detail-thumbnails { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 13px; }
+    .detail-thumb { position: relative; width: 73px; height: 70px; padding: 4px; overflow: hidden; border: 1px solid #D9DED6; background: #fff; }
+    .detail-thumb.is-active, .detail-thumb:hover { border-color: var(--brand-green); }
+    .detail-thumb img { width: 100%; height: 100%; object-fit: contain; }
+    .detail-copy { padding-top: 6px; }
+    .detail-copy .product-brand { font-size: 10px; }
+    .detail-copy h1 { margin-top: 12px; color: var(--brand-blue); font-size: clamp(33px, 4vw, 48px); font-weight: 900; letter-spacing: -.05em; line-height: 1.1; }
+    .detail-category { display: inline-block; margin-top: 14px; color: var(--brand-green); font-family: var(--font-heading); font-size: 11px; font-weight: 700; }
+    .detail-description { margin-top: 21px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+    .detail-meta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 25px; margin-top: 27px; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .detail-meta-label { display: block; color: #899186; font-family: var(--font-heading); font-size: 9px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .detail-meta-value { display: block; margin-top: 5px; color: #394239; font-size: 12px; font-weight: 600; line-height: 1.5; }
+    .specifications { margin-top: 28px; }
+    .specifications h2 { color: var(--brand-blue); font-size: 16px; font-weight: 800; }
+    .specifications ul { display: grid; gap: 10px; margin: 16px 0 0; padding: 0; list-style: none; }
+    .specifications li { position: relative; padding-left: 19px; color: #596259; font-size: 12px; line-height: 1.6; }
+    .specifications li::before { position: absolute; top: 8px; left: 0; width: 6px; height: 6px; border-radius: 50%; content: ""; background: var(--brand-green); }
+    .detail-actions { display: flex; flex-wrap: wrap; gap: 11px; margin-top: 29px; }
+    .related-section { padding: 64px 0 90px; background: #fff; }
+    .related-section .section-title { margin-bottom: 25px; font-size: 28px; }
+
+    .booklet-page { min-height: calc(100vh - 82px); padding: 40px 0 76px; color: #fff; background: var(--charcoal); }
+    .booklet-topbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 28px; }
+    .booklet-brandline { display: flex; align-items: center; gap: 12px; color: #fff; }
+    .booklet-brandline .brand-logo { width: 230px; height: auto; }
+    .booklet-brandline span { font-family: var(--font-heading); font-size: 10px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    .booklet-back { display: inline-flex; align-items: center; gap: 9px; color: #E0E6DF; font-family: var(--font-heading); font-size: 10px; font-weight: 700; }
+    .booklet-back:hover { color: #F6B253; }
+    .booklet-back svg { width: 15px; height: 15px; }
+    .booklet-title-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 25px; }
+    .booklet-title-row h1 { margin-top: 8px; color: #fff; font-size: clamp(30px, 4vw, 45px); font-weight: 900; letter-spacing: -.05em; }
+    .booklet-title-row .eyebrow { color: #F6B253; }
+    .booklet-download { color: #fff; border-color: rgba(255,255,255,.45); }
+    .booklet-layout { display: grid; grid-template-columns: 210px minmax(0, 1fr); border: 1px solid rgba(255,255,255,.13); background: #F5F6F2; color: var(--body); }
+    .booklet-index { display: flex; flex-direction: column; max-height: 690px; gap: 0; overflow-y: auto; padding: 11px; border-right: 1px solid #DDE1D8; background: #ECEFE9; }
+    .booklet-index-title { padding: 9px 10px 13px; color: #7A8478; font-family: var(--font-heading); font-size: 9px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    .booklet-index-item { display: grid; min-height: 57px; grid-template-columns: 38px minmax(0,1fr); align-items: center; gap: 10px; padding: 7px; border: 1px solid transparent; color: #4D574E; background: transparent; text-align: left; transition: border-color .2s ease, background .2s ease; }
+    .booklet-index-item:hover, .booklet-index-item.is-active { border-color: rgba(67, 139, 62, .28); background: #fff; }
+    .booklet-index-thumb { position: relative; width: 38px; height: 38px; overflow: hidden; background: #fff; }
+    .booklet-index-thumb img { width: 100%; height: 100%; object-fit: contain; }
+    .booklet-index-copy { min-width: 0; }
+    .booklet-index-copy strong { display: block; overflow: hidden; color: var(--brand-blue); font-family: var(--font-heading); font-size: 9px; font-weight: 800; line-height: 1.3; text-overflow: ellipsis; white-space: nowrap; }
+    .booklet-index-copy small { display: block; margin-top: 4px; color: #7C857B; font-size: 9px; line-height: 1.3; }
+    .booklet-spread { min-width: 0; padding: clamp(24px, 4vw, 52px); background: #fff; }
+    .booklet-page-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-bottom: 14px; border-bottom: 1px solid #E0E4DC; color: #818A80; font-family: var(--font-heading); font-size: 9px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .booklet-product { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .92fr); align-items: center; gap: clamp(24px, 4vw, 54px); padding: 32px 0 28px; }
+    .booklet-product-image { min-height: 350px; aspect-ratio: 1.05 / 1; background: #F3F5F1; }
+    .booklet-product-image img { width: 100%; height: 100%; padding: 18px; object-fit: contain; }
+    .booklet-copy .product-brand { font-size: 9px; }
+    .booklet-copy h2 { margin-top: 10px; color: var(--brand-blue); font-size: clamp(25px, 3vw, 35px); font-weight: 900; letter-spacing: -.04em; line-height: 1.12; }
+    .booklet-copy .detail-category { margin-top: 10px; }
+    .booklet-copy p { margin-top: 16px; color: #697268; font-size: 13px; line-height: 1.75; }
+    .booklet-copy .specifications { margin-top: 22px; }
+    .booklet-copy .specifications h2 { font-size: 14px; }
+    .booklet-copy .specifications ul { gap: 7px; margin-top: 10px; }
+    .booklet-copy .specifications li { font-size: 11px; }
+    .booklet-controls { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding-top: 16px; border-top: 1px solid #E0E4DC; }
+    .booklet-controls button { display: inline-flex; min-height: 40px; align-items: center; gap: 9px; padding: 8px 12px; border: 1px solid #D5DBD2; color: var(--brand-blue); background: #fff; font-family: var(--font-heading); font-size: 10px; font-weight: 800; transition: color .2s ease, background .2s ease, border-color .2s ease; }
+    .booklet-controls button:hover:not(:disabled) { color: #fff; border-color: var(--brand-blue); background: var(--brand-blue); }
+    .booklet-controls button:disabled { opacity: .4; cursor: not-allowed; }
+    .booklet-controls button svg { width: 14px; height: 14px; }
+    .booklet-counter { color: #788176; font-family: var(--font-heading); font-size: 9px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .booklet-endnote { margin-top: 16px; color: rgba(255,255,255,.64); font-size: 10px; text-align: center; }
+
+    .contact-page { padding: 66px 0 100px; }
+    .contact-layout { display: grid; grid-template-columns: minmax(280px, .78fr) minmax(0, 1.22fr); gap: clamp(40px, 7vw, 90px); margin-top: 43px; }
+    .contact-info { padding-top: 6px; }
+    .contact-info h2 { color: var(--brand-blue); font-size: 23px; font-weight: 800; }
+    .contact-info > p { margin-top: 12px; color: var(--muted); font-size: 13px; line-height: 1.75; }
+    .contact-details { display: grid; gap: 19px; margin-top: 31px; }
+    .contact-detail { display: grid; grid-template-columns: 37px minmax(0,1fr); align-items: start; gap: 12px; }
+    .contact-detail-icon { display: grid; width: 36px; height: 36px; place-items: center; color: var(--brand-green); border: 1px solid rgba(67,139,62,.23); background: #fff; }
+    .contact-detail-icon svg { width: 16px; height: 16px; }
+    .contact-detail-label { display: block; color: #8A9388; font-family: var(--font-heading); font-size: 9px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    .contact-detail-value { display: block; margin-top: 5px; color: #3E493F; font-size: 12px; line-height: 1.6; }
+    .contact-detail-value a:hover { color: var(--amber); }
+    .contact-form { padding: clamp(22px, 4vw, 38px); border: 1px solid #DDE2D9; background: #fff; }
+    .contact-form h2 { color: var(--brand-blue); font-size: 22px; font-weight: 800; }
+    .contact-form > p { margin-top: 9px; color: var(--muted); font-size: 12px; }
+    .form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 17px 15px; margin-top: 25px; }
+    .form-field { display: flex; min-width: 0; flex-direction: column; gap: 6px; }
+    .form-field.full-span { grid-column: 1 / -1; }
+    .form-field label { color: #4D574E; font-family: var(--font-heading); font-size: 10px; font-weight: 700; }
+    .form-field input, .form-field select, .form-field textarea { width: 100%; min-height: 43px; padding: 10px 12px; border: 1px solid #D9DED6; border-radius: 2px; outline: 0; color: var(--body); background: #FAFBF9; font-size: 12px; }
+    .form-field textarea { min-height: 108px; resize: vertical; }
+    .form-field input:focus, .form-field select:focus, .form-field textarea:focus { border-color: var(--brand-blue); box-shadow: 0 0 0 3px rgba(30,67,120,.1); }
+    .form-action { display: flex; flex-wrap: wrap; align-items: center; gap: 13px; margin-top: 21px; }
+    .schedule-note { margin-top: 12px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+    .print-catalogue { padding: 42px 0; color: var(--body); background: #fff; }
+    .print-catalogue-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-bottom: 24px; border-bottom: 2px solid var(--brand-blue); }
+    .print-catalogue-header img { width: 230px; height: auto; }
+    .print-catalogue-header h1 { color: var(--brand-blue); font-size: 26px; text-align: right; }
+    .print-product-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; margin-top: 26px; }
+    .print-product { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+    .print-product-image { width: 130px; height: 130px; background: #F5F6F2; }
+    .print-product-image img { width: 100%; height: 100%; padding: 8px; object-fit: contain; }
+    .print-product h2 { color: var(--brand-blue); font-size: 16px; }
+    .print-product p { margin-top: 7px; color: var(--muted); font-size: 10px; line-height: 1.5; }
+    .print-product .product-brand { margin-bottom: 5px; }
+    .print-product .specifications { margin-top: 8px; }
+    .print-product .specifications h3 { color: var(--brand-blue); font-size: 10px; }
+    .print-product .specifications ul { gap: 3px; margin-top: 5px; }
+    .print-product .specifications li { font-size: 9px; }
+    .form-status { color: var(--brand-green); font-size: 11px; line-height: 1.5; }
+
+    .not-found { padding: 100px 0; text-align: center; }
+    .not-found h1 { color: var(--brand-blue); font-size: 38px; font-weight: 900; }
+    .not-found p { margin: 14px auto 25px; color: var(--muted); }
+    .whatsapp-float {
+      position: fixed;
+      z-index: 1100;
+      right: 23px;
+      bottom: 23px;
+      display: grid;
+      width: 54px;
+      height: 54px;
+      place-items: center;
+      border: 0;
+      border-radius: 50%;
+      color: #fff;
+      background: #25D366;
+      box-shadow: 0 8px 23px rgba(20, 95, 48, .27);
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+    .whatsapp-float:hover { background: #20BA5A; box-shadow: 0 11px 28px rgba(20, 95, 48, .35); transform: translateY(-3px); }
+    .whatsapp-float svg { width: 27px; height: 27px; }
+    .whatsapp-float.is-pending { background: #4B8B5A; }
+    .toast-message { position: fixed; z-index: 1200; right: 20px; bottom: 92px; max-width: min(350px, calc(100vw - 40px)); padding: 12px 16px; color: #fff; background: var(--charcoal); box-shadow: 0 10px 28px rgba(0,0,0,.2); font-size: 12px; opacity: 0; pointer-events: none; transform: translateY(8px); transition: opacity .2s ease, transform .2s ease; }
+    .toast-message.is-visible { opacity: 1; transform: translateY(0); }
+    .site-welcome-overlay { position:fixed; z-index:2200; inset:0; display:grid; place-items:center; padding:20px; background:rgba(7,24,39,.68); backdrop-filter:blur(5px); opacity:0; transition:opacity .22s ease; }
+    .site-welcome-overlay[hidden] { display:none; }
+    .site-welcome-overlay.is-visible { opacity:1; }
+    .site-welcome-card { position:relative; width:min(100%,430px); padding:34px 28px 28px; border:1px solid #DCE5EC; border-top:5px solid var(--amber); border-radius:20px; background:#fff; text-align:center; box-shadow:0 28px 80px #0004; opacity:0; transform:translateY(20px) scale(.96); transition:opacity .3s ease,transform .3s cubic-bezier(.2,.72,.25,1); }
+    .site-welcome-overlay.is-visible .site-welcome-card { opacity:1; transform:translateY(0) scale(1); }
+    .site-welcome-logo { display:block; width:min(100%,320px); max-height:80px; object-fit:contain; margin:0 auto 22px; }
+    .site-welcome-card h2 { margin:0; color:var(--brand-blue); font-size:clamp(24px,6vw,32px); font-weight:900; }
+    .site-welcome-card > p:not(.eyebrow) { margin:10px 0 22px; color:var(--muted); line-height:1.6; }
+    .site-welcome-continue { min-width:180px; }
+    .site-welcome-close { position:absolute; top:10px; right:12px; width:36px; height:36px; border:0; border-radius:50%; color:var(--muted); background:#F1F5F7; font-size:24px; line-height:1; }
+
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s cubic-bezier(.2,.72,.25,1); }
+    .reveal.is-visible { opacity: 1; transform: translateY(0); }
+    @keyframes enter-copy { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes enter-product { from { opacity: 0; transform: translateY(12px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+
+    @media (min-width: 1600px) {
+      .site-container { width: min(100% - 80px, 1380px); }
+      .hero-inner { grid-template-columns: minmax(0, 1fr) minmax(420px, .9fr); }
+    }
+    @media (max-width: 1199px) {
+      .header-shell { gap: 18px; }
+      .brand-lockup { min-width: 0; }
+      .brand-logo { width: 235px; }
+      .main-nav { gap: 17px; }
+      .nav-link { font-size: 10px; }
+      .header-quote { padding-inline: 12px; font-size: 9px; }
+      .listing-section .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .footer-main { grid-template-columns: 1.1fr .7fr 1fr; }
+      .footer-social-col { grid-column: 3; }
+    }
+    @media (max-width: 991px) {
+      .site-container { width: min(100% - 40px, 780px); }
+      .header-shell { min-height: 74px; }
+      .brand-lockup { min-width: 0; }
+      .brand-logo { width: 250px; }
+      .main-nav { position: absolute; top: 100%; right: 0; left: 0; display: none; flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 0; padding: 9px 24px 20px; border-top: 1px solid #EEF0EB; background: #fff; box-shadow: 0 12px 22px rgba(32,37,34,.1); }
+      .main-nav.is-open { display: flex; }
+      .main-nav .nav-link { padding: 12px 0; border-bottom: 1px solid #EEF0EB; font-size: 12px; }
+      .main-nav .nav-link::after { display: none; }
+      .nav-mobile-cta, .admin-panel-nav { display: inline-flex; margin-top: 15px; }
+      .admin-panel-nav { align-self:flex-start; padding:11px 14px; }
+      .header-quote { display: none; }
+      .mobile-menu-toggle { display: flex; width: 42px; height: 42px; flex-direction: column; align-items: center; justify-content: center; gap: 5px; margin-left: auto; border: 1px solid #DDE2D9; background: #fff; }
+      .mobile-menu-toggle span { display: block; width: 17px; height: 2px; background: var(--brand-blue); transition: transform .2s ease, opacity .2s ease; }
+      .mobile-menu-toggle[aria-expanded="true"] span:first-child { transform: translateY(7px) rotate(45deg); }
+      .mobile-menu-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+      .mobile-menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-7px) rotate(-45deg); }
+      .hero { min-height: 620px; min-height: max(600px, calc(100svh - 74px)); }
+      .hero-inner { grid-template-columns: minmax(0, 1.1fr) minmax(230px, .8fr); gap: 16px; }
+      .hero-visual { min-height: 360px; }
+      .hero-visual .media-frame { width: min(100%, 440px); }
+      .about-grid { grid-template-columns: minmax(0, 1fr) minmax(280px, .9fr); gap: 40px; }
+      .about-image, .about-image img { min-height: 370px; }
+      .section-heading-row { align-items: flex-start; }
+      .exhibition-head { align-items: flex-start; flex-direction: column; }
+      .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .listing-tools { flex-direction: column; }
+      .listing-tools .category-tabs { width: 100%; }
+      .search-field { width: min(100%, 350px); flex-basis: 42px; }
+      .detail-grid { grid-template-columns: minmax(0, 1fr) minmax(300px, .95fr); gap: 38px; }
+      .booklet-layout { grid-template-columns: 175px minmax(0,1fr); }
+      .booklet-index { max-height: 620px; }
+      .booklet-product { grid-template-columns: minmax(0, .9fr) minmax(245px, 1fr); gap: 25px; }
+      .booklet-product-image { min-height: 280px; }
+      .contact-layout { grid-template-columns: minmax(230px, .75fr) minmax(0, 1.25fr); gap: 35px; }
+    }
+    @media (max-width: 767px) {
+      .site-container { width: min(100% - 36px, 620px); }
+      .section-title { font-size: clamp(28px, 7vw, 37px); }
+      .header-shell { min-height: 70px; }
+      .brand-logo { width: 220px; }
+      .hero { min-height: 0; background-position: center; }
+      .hero::before { background: linear-gradient(90deg, rgba(24,28,25,.91), rgba(24,28,25,.72)); }
+      .hero-inner { min-height: 0; grid-template-columns: 1fr; gap: 8px; padding-top: 70px; padding-bottom: 38px; }
+      .hero h1 { max-width: 550px; font-size: clamp(39px, 9vw, 58px); }
+      .hero-intro { max-width: 540px; margin-top: 18px; font-size: 15px; }
+      .hero-actions { margin-top: 24px; }
+      .hero-visual { min-height: 0; justify-content: center; margin-top: 4px; }
+      .hero-visual .media-frame { width: min(83vw, 420px); }
+      .hero-scroll { display: none; }
+      .about-section, .category-section, .exhibition-section { padding: 74px 0; }
+      .about-grid { grid-template-columns: 1fr; gap: 30px; }
+      .about-image, .about-image img { min-height: 300px; height: 340px; }
+      .section-heading-row { flex-direction: column; gap: 18px; margin-bottom: 28px; }
+      .section-heading-row > .button-text { align-self: flex-start; }
+      .category-grid { grid-template-columns: 1fr; gap: 15px; }
+      .category-tile { min-height: 315px; }
+      .category-tile-content { right: 24px; bottom: 25px; left: 24px; }
+      .category-tile-content.has-arrow { right: 78px; }
+      .category-tile-arrow { right: 22px; bottom: 24px; width: 40px; height: 40px; }
+      .exhibition-head { gap: 20px; margin-bottom: 25px; }
+      .exhibition-actions { width: 100%; }
+      .exhibition-actions .button { flex: 1; }
+      .category-tabs { gap: 20px; overflow-x: auto; flex-wrap: nowrap; margin-right: -8px; padding-right: 8px; }
+      .category-tab { flex: 0 0 auto; font-size: 10px; }
+      .product-grid, .listing-section .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+      .product-copy { padding: 16px 14px 18px; }
+      .product-copy h3 { font-size: 16px; }
+      .product-copy p { min-height: 0; font-size: 11px; }
+      .product-details-link { font-size: 9px; }
+      .advantages-section { padding: 76px 0; }
+      .advantages-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 28px 20px; margin-top: 36px; }
+      .contact-cta { padding: 55px 0; }
+      .contact-cta-inner { align-items: flex-start; flex-direction: column; }
+      .footer-main { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 25px; }
+      .footer-social-col { grid-column: auto; }
+      .footer-bottom { align-items: flex-start; flex-direction: column; justify-content: center; padding: 15px 0; }
+      .page-intro { padding: 45px 0 38px; }
+      .listing-section { padding-top: 26px; }
+      .listing-tools { gap: 17px; }
+      .listing-tools .category-tabs { flex-wrap: nowrap; }
+      .search-field { flex-basis: 42px; }
+      .exhibition-hero-inner { min-height: 0; grid-template-columns: 1fr; gap: 16px; padding-top: 52px; padding-bottom: 28px; }
+      .exhibition-hero h1 { font-size: clamp(37px, 9vw, 54px); }
+      .exhibition-cover-image { min-height: 0; justify-content: center; }
+      .exhibition-cover-image .media-frame { width: min(82vw, 350px); height: 250px; }
+      .exhibition-listing { padding: 40px 0 75px; }
+      .detail-page { padding: 24px 0 66px; }
+      .detail-grid { grid-template-columns: 1fr; gap: 30px; }
+      .detail-main-image { aspect-ratio: 1 / .82; }
+      .detail-copy h1 { font-size: 38px; }
+      .related-section { padding: 50px 0 65px; }
+      .booklet-page { padding: 29px 0 58px; }
+      .booklet-topbar { align-items: flex-start; flex-direction: column; }
+      .booklet-title-row { align-items: flex-start; flex-direction: column; gap: 15px; }
+      .booklet-layout { grid-template-columns: 1fr; }
+      .booklet-index { display: flex; max-height: none; flex-direction: row; gap: 7px; overflow-x: auto; overflow-y: hidden; padding: 10px; border-right: 0; border-bottom: 1px solid #DDE1D8; }
+      .booklet-index-title { display: none; }
+      .booklet-index-item { min-width: 185px; }
+      .booklet-spread { padding: 22px; }
+      .booklet-product { grid-template-columns: 1fr; gap: 23px; padding-top: 23px; }
+      .booklet-product-image { min-height: 250px; aspect-ratio: 1.2 / 1; }
+      .booklet-controls { gap: 8px; }
+      .booklet-controls button { min-height: 38px; padding: 7px 9px; font-size: 9px; }
+      .booklet-counter { font-size: 8px; text-align: center; }
+      .contact-page { padding: 45px 0 75px; }
+      .contact-layout { grid-template-columns: 1fr; gap: 32px; margin-top: 31px; }
+      .form-grid { gap: 14px 12px; }
+      .qr-layout { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 575px) {
+      .site-container { width: calc(100% - 32px); }
+      .brand-logo { width: min(205px, calc(100vw - 110px)); }
+      .hero-inner { padding-top: 59px; }
+      .hero-brand { font-size: 10px; }
+      .hero h1 { font-size: clamp(36px, 11vw, 49px); }
+      .hero-intro { font-size: 14px; }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .hero-actions .button { width: 100%; }
+      .hero-visual .media-frame { width: min(88vw, 420px); }
+      .about-image, .about-image img { min-height: 260px; height: 270px; }
+      .about-brand-visual { height: auto; min-height: 260px; }
+      .about-brand-visual img { height: auto; }
+      .category-tile { min-height: 280px; }
+      .category-tile-content { right: 18px; bottom: 20px; left: 18px; }
+      .category-tile-content.has-arrow { right: 67px; }
+      .category-tile h3 { font-size: 23px; }
+      .category-tile p { font-size: 11px; }
+      .category-tile-arrow { right: 16px; bottom: 18px; width: 37px; height: 37px; }
+      .exhibition-actions { flex-direction: column; }
+      .product-grid, .listing-section .product-grid { grid-template-columns: 1fr; }
+      .product-media { aspect-ratio: 1.38 / 1; }
+      .product-copy { padding: 17px 17px 19px; }
+      .product-copy p { font-size: 12px; }
+      .advantages-grid { grid-template-columns: 1fr; gap: 24px; }
+      .footer-main { grid-template-columns: 1fr; gap: 30px; }
+      .footer-social-col { grid-column: auto; }
+      .footer-main { padding-bottom: 34px; }
+      .footer-bottom-right { gap: 10px; }
+      .listing-tools .category-tabs { gap: 16px; }
+      .listing-tools .category-tab { font-size: 9px; }
+      .detail-meta { grid-template-columns: 1fr; gap: 13px; }
+      .detail-actions { flex-direction: column; align-items: stretch; }
+      .detail-actions .button { width: 100%; }
+      .booklet-spread { padding: 16px; }
+      .booklet-product-image { min-height: 210px; }
+      .booklet-controls button { gap: 5px; }
+      .contact-form { padding: 20px 16px; }
+      .form-grid { grid-template-columns: 1fr; }
+      .form-field.full-span { grid-column: auto; }
+      .form-action { align-items: stretch; flex-direction: column; }
+      .form-action .button { width: 100%; }
+      .qr-preview { height: 270px; }
+      .print-catalogue-header { align-items: flex-start; flex-direction: column; }
+      .print-catalogue-header h1 { text-align: left; }
+      .print-product-grid { grid-template-columns: 1fr; }
+      .print-product { grid-template-columns: 90px minmax(0, 1fr); gap: 12px; }
+      .print-product-image { width: 90px; height: 90px; }
+      .whatsapp-float { right: 15px; bottom: 15px; width: 50px; height: 50px; }
+      .toast-message { right: 15px; bottom: 76px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+      .hero { background-position: center; }
+      .reveal { opacity: 1; transform: none; }
+    }
+    @media print {
+      body { min-width: 0; color: #000; background: #fff; font-size: 10pt; }
+      .site-header, .site-footer, .whatsapp-float, .toast-message, .site-welcome-overlay, .print-hide { display: none !important; }
+      .site-container { width: 100%; max-width: none; }
+      .print-catalogue { padding: 0; }
+      .print-catalogue-header { padding-bottom: 12px; }
+      .print-catalogue-header img { width: 190px; }
+      .print-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 15px; }
+      .print-product { grid-template-columns: 90px minmax(0, 1fr); gap: 10px; padding: 8px 0; }
+      .print-product-image { width: 90px; height: 90px; }
+      .print-product .specifications li:nth-child(n+4) { display: none; }
+      a { color: inherit; text-decoration: none; }
+    }
+    .catalogue-actions { display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+    .catalogue-pdf-viewer { display:block; width:100%; height:min(80vh,850px); min-height:480px; border:1px solid rgba(255,255,255,.2); border-radius:12px; background:#fff; margin:22px 0 12px; }
+    .catalogue-help { font-size:14px; opacity:.85; margin-bottom:25px; }
+    .qr-png { width:min(100%,300px); height:auto; aspect-ratio:1; object-fit:contain; background:white; padding:12px; border-radius:12px; }
+    @media(max-width:640px) { .catalogue-pdf-viewer { min-height:400px; height:62vh; } .catalogue-actions { margin-top:18px; } .catalogue-actions .button { width:100%; justify-content:center; } }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="site-container header-shell">
+      <a class="brand-lockup" href="?view=home" data-route="home" aria-label="Rangers Safety Systems LLC home">
+        <img class="brand-logo" src="assets/rangers-logo.png" alt="Rangers Safety Systems LLC">
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a class="nav-link" href="?view=home" data-route="home">Home</a>
+        <a class="nav-link" href="?view=home#about" data-section="about">About Us</a>
+        <a class="nav-link" href="?view=products" data-route="products">Products</a>
+        <a class="nav-link" href="?view=exhibition" data-route="exhibition">2026 Showcase</a>
+        <a class="nav-link" href="?view=booklet" data-route="booklet">Digital Catalogue</a>
+        <a class="nav-link" href="?view=schedule" data-route="schedule">Schedule Meeting</a>
+        <a class="nav-link" href="?view=contact" data-route="contact">Contact</a>
+        <a class="nav-link admin-panel-nav" href="../admin/?welcome=admin" aria-label="Open admin panel">Admin Panel</a>
+        <a class="button button-primary nav-mobile-cta" href="?view=contact" data-route="contact">Request Corporate Quote</a>
+      </nav>
+      <a class="button button-primary header-quote" href="?view=contact" data-route="contact">Request Corporate Quote</a>
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="appMain" class="site-main" tabindex="-1"></main>
+
+  <footer class="site-footer" id="siteFooter">
+    <div class="site-container footer-main">
+      <div>
+        <a class="footer-brand" href="?view=home" data-route="home" aria-label="Rangers Safety Systems LLC home">
+          <img class="brand-logo" src="assets/rangers-logo.png" alt="Rangers Safety Systems LLC">
+        </a>
+        <p class="footer-about">Industrial safety footwear and workwear for professional teams across the UAE and GCC.</p>
+      </div>
+      <div>
+        <h2 class="footer-heading">Explore</h2>
+        <div class="footer-links">
+          <a href="?view=home" data-route="home">Home</a>
+          <a href="?view=products" data-route="products">Products</a>
+          <a href="?view=exhibition" data-route="exhibition">2026 Exhibition Showcase</a>
+          <a href="?view=booklet" data-route="booklet">Digital Booklet</a>
+          <a href="?view=contact" data-route="contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <h2 class="footer-heading">Contact</h2>
+        <div class="footer-contact-list">
+          <a href="tel:+97142445408">+971 4 244 5408</a>
+          <a href="mailto:info@rangers-safety.com">info@rangers-safety.com</a>
+          <address>Unit SH01, Street 57, Jebel Ali Industrial First, Dubai 50791, United Arab Emirates</address>
+        </div>
+      </div>
+      <div class="footer-social-col">
+        <h2 class="footer-heading">Follow Rangers</h2>
+        <div class="social-links" id="socialLinks" aria-label="Social media links"></div>
+        <p class="social-note" id="socialNote">Only verified company profile URLs are enabled.</p>
+      </div>
+    </div>
+    <div class="site-container footer-bottom">
+      <span>Copyright <span id="copyrightYear"></span> Rangers Safety Systems LLC. All rights reserved.</span>
+      <span class="footer-bottom-right"><span>TRN: 100391707500003</span><span>Dubai, United Arab Emirates</span></span>
+    </div>
+  </footer>
+
+  <button class="whatsapp-float" id="whatsappFloat" type="button" aria-label="Contact Rangers on WhatsApp" title="Contact Rangers on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M16.02 3.2A12.62 12.62 0 0 0 5.2 22.3L3.5 28.5l6.35-1.66A12.63 12.63 0 1 0 16.02 3.2Zm0 22.91c-1.89 0-3.75-.5-5.38-1.45l-.39-.23-3.77.99 1-3.67-.25-.4a10.27 10.27 0 1 1 8.79 4.76Zm5.64-7.69c-.31-.16-1.84-.91-2.12-1.01-.29-.11-.5-.16-.71.16-.21.31-.81 1.01-.99 1.21-.18.21-.37.24-.68.08-.31-.16-1.3-.48-2.48-1.53-.92-.82-1.54-1.84-1.72-2.15-.18-.32-.02-.49.14-.65.14-.14.31-.37.47-.55.16-.18.21-.31.31-.52.1-.21.05-.39-.03-.55-.08-.16-.71-1.7-.97-2.32-.26-.61-.52-.52-.71-.53h-.6c-.21 0-.55.08-.84.39-.29.32-1.1 1.08-1.1 2.62 0 1.54 1.13 3.02 1.29 3.23.15.21 2.22 3.39 5.38 4.75.75.32 1.34.51 1.8.66.76.24 1.45.21 2 .13.61-.09 1.84-.76 2.1-1.49.26-.74.26-1.37.18-1.5-.08-.13-.29-.21-.6-.37Z"></path>
+    </svg>
+  </button>
+  <div class="toast-message" id="toastMessage" role="status" aria-live="polite"></div>
+  <div class="site-welcome-overlay" id="siteWelcomePopup" role="dialog" aria-modal="true" aria-labelledby="siteWelcomeTitle" hidden>
+    <section class="site-welcome-card">
+      <button class="site-welcome-close" type="button" aria-label="Close welcome message">&times;</button>
+      <img class="site-welcome-logo" src="assets/rangers-logo.png" alt="Rangers Safety Systems">
+      <p class="eyebrow">RANGERS SAFETY SYSTEMS LLC</p>
+      <h2 id="siteWelcomeTitle">Welcome to Rangers</h2>
+      <p>Explore our certified safety footwear and workwear for professional teams.</p>
+      <button class="button button-primary site-welcome-continue" type="button">Explore the website</button>
+    </section>
+  </div>
+  <noscript><div class="site-container" style="padding:24px 0">JavaScript is required to browse this exhibition catalogue.</div></noscript>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const CONFIG = {
+      apiBase: "../api",
+      referenceOrigin: window.location.origin + "/rangers-backend/site",
+      qrCodePdfUrl: "assets/exhibition-qr.png",
+      cataloguePdfUrl: "assets/2026-exhibition-catalogue.pdf",
+      whatsappUrl: "https://wa.me/971557328048",
+      whatsappNumber: "+971 55 732 8048",
+      social: {
+        linkedin: "https://www.linkedin.com/company/rangers-safety-systems-llc",
+        instagram: "https://www.instagram.com/rangerssafety",
+        facebook: ""
+      }
+    };
+
+    const LOCAL_DATA = {
+      categories: [
+        {
+          id: "safety-footwear",
+          name: "Safety Footwear & Boots",
+          description: "Certified EN ISO 20345 safety shoes, composite and steel toe boots, and heat-resistant footwear engineered for industrial, utility, and construction safety.",
+          image: "assets/rangers-safety-footwear.jpeg",
+          altText: "Certified EN ISO 20345 safety footwear and boots",
+          subBrands: ["RANGERS WAQ", "RANGERS PARADE", "COMPOSITE TOE"]
+        },
+        {
+          id: "workwear",
+          name: "Safety Garments & Workwear",
+          description: "High-visibility garments, polycotton coveralls, 100% cotton suits, and certified EN ISO 11611/11612 fire-retardant industrial workwear.",
+          image: "assets/rangers-workwear.jpeg",
+          altText: "Certified high-visibility uniforms and 100% cotton industrial workwear",
+          subBrands: ["RANGERS WORKWEAR", "TREATENDO FR", "100% COTTON"]
+        }
+      ],
+      products: [
+        {
+          id: "prod-01",
+          name: "SS-08 S1P (Black)",
+          brand: "RANGERS WAQ",
+          category: "safety-footwear",
+          categoryName: "Safety Shoes & Boots",
+          sku: "SS-08-S1P",
+          model: "SS-08 S1P (Black)",
+          shortDescription: "Composite toe (200J) and Kevlar midsole (1100N) with 100% non-metallic action leather.",
+          fullDescription: "Certified EN ISO 20345:2022 safety shoe featuring 100% non-metallic action leather upper, lightweight RBPU sole engineered for slip, oil and 300°C heat resistance, and breathable PU foam footbed.",
+          certifications: "EN ISO 20345:2022 certified",
+          material: "100% non-metallic action leather upper",
+          sizes: "39 - 46",
+          specifications: [
+            "EN ISO 20345:2022 certified",
+            "Composite toe (200J) and Kevlar midsole (1100N)",
+            "100% non-metallic action leather upper",
+            "Lightweight RBPU sole (slip, oil and 300°C heat-resistant)",
+            "Anti-static with breathable PU foam footbed"
+          ],
+          image: "assets/rangers-ss-08-s1p.png",
+          featured: true
+        },
+        {
+          id: "prod-02",
+          name: "SS-12S S1P (Beige)",
+          brand: "RANGERS WAQ",
+          category: "safety-footwear",
+          categoryName: "Safety Shoes & Boots",
+          sku: "SS-12S-S1P",
+          model: "SS-12S S1P (Beige)",
+          shortDescription: "Beige suede cow leather and fabric upper with steel toe (200J).",
+          fullDescription: "Heavy-duty industrial shoe with premium beige suede cow leather upper, steel midplate (1100N), dual density PU (DDPU) slip and oil-resistant outsole, and anti-static moulded EVA footbed.",
+          certifications: "EN ISO 20345:2022 certified",
+          material: "Beige suede cow leather and fabric upper",
+          sizes: "38 - 47",
+          specifications: [
+            "EN ISO 20345:2022 certified",
+            "Steel toe (200J) and steel midplate (1100N)",
+            "Beige suede cow leather and fabric upper",
+            "Dual density PU (DDPU) sole (slip and oil-resistant)",
+            "Anti-static with moulded EVA footbed"
+          ],
+          image: "/uploads/products/footwear/ss-12s-s1p.jpg",
+          featured: true
+        },
+        {
+          id: "prod-03",
+          name: "SS-18 S1P (Black/Fluorescent Green)",
+          brand: "RANGERS WAQ",
+          category: "safety-footwear",
+          categoryName: "Safety Shoes & Boots",
+          sku: "SS-18-S1P",
+          model: "SS-18 S1P (Black/Fluorescent Green)",
+          shortDescription: "Breathable fabric upper with sandwich lining and high-visibility green accents.",
+          fullDescription: "Ergonomic athletic safety shoe designed for high-mobility industrial environments, featuring breathable sandwich lining, steel toe protection (200J), and slip and oil-resistant DDPU outsole.",
+          certifications: "EN ISO 20345:2022 certified",
+          material: "Breathable fabric upper with sandwich lining",
+          sizes: "39 - 47",
+          specifications: [
+            "EN ISO 20345:2022 certified",
+            "Steel toe (200J) and steel midplate (1100N)",
+            "Breathable fabric upper with sandwich lining",
+            "Dual density PU (DDPU) sole (slip and oil-resistant)",
+            "Anti-static with breathable PU foam footbed"
+          ],
+          image: "/uploads/products/footwear/ss-18-s1p.jpg",
+          featured: false
+        },
+        {
+          id: "prod-04",
+          name: "SS-21 S3 (Black)",
+          brand: "RANGERS WAQ",
+          category: "safety-footwear",
+          categoryName: "Safety Shoes & Boots",
+          sku: "SS-21-S3",
+          model: "SS-21 S3 (Black)",
+          shortDescription: "Water-resistant microfiber leather with lightweight plastic toe (200J).",
+          fullDescription: "Certified water-resistant S3 work shoe with lightweight composite plastic toe cap, steel midsole (1100N), microfiber leather upper, non-marking DDPU sole, and anti-static footbed.",
+          certifications: "EN ISO 20345:2022 S3 (water-resistant)",
+          material: "Microfiber leather upper",
+          sizes: "39 - 47",
+          specifications: [
+            "EN ISO 20345:2022 S3 (water-resistant)",
+            "Lightweight plastic toe (200J) and steel midsole (1100N)",
+            "Microfiber leather upper",
+            "Dual density PU (DDPU) sole (slip, oil and heat-resistant)",
+            "Anti-static, non-marking, breathable PU foam footbed"
+          ],
+          image: "/uploads/products/footwear/ss-21-s3.jpg",
+          featured: true
+        },
+        {
+          id: "prod-05",
+          name: "SS-25 S3 (Black)",
+          brand: "RANGERS WAQ",
+          category: "safety-footwear",
+          categoryName: "Safety Shoes & Boots",
+          sku: "SS-25-S3",
+          model: "SS-25 S3 (Black)",
+          shortDescription: "Barton printed split leather with side reflector and steel toe.",
+          fullDescription: "Rugged water-resistant construction safety shoe with high-durability Barton split leather, embedded side reflective visibility strip, 200J impact resistance, and dual density PU sole.",
+          certifications: "EN ISO 20345:2022 S3 (water-resistant)",
+          material: "Barton printed split leather with side reflector",
+          sizes: "38 - 47",
+          specifications: [
+            "EN ISO 20345:2022 S3 (water-resistant)",
+            "Steel toe (200J) and steel midplate (1100N)",
+            "Barton printed split leather with side reflector",
+            "Dual density PU (DDPU) sole (slip, oil and heat-resistant)",
+            "Anti-static with moulded EVA footbed"
+          ],
+          image: "/uploads/products/footwear/ss-25-s3.jpg",
+          featured: false
+        },
+        {
+          id: "prod-06",
+          name: "SS-26 S3 (Black Mid-Cut)",
+          brand: "RANGERS WAQ",
+          category: "safety-footwear",
+          categoryName: "Safety Shoes & Boots",
+          sku: "SS-26-S3",
+          model: "SS-26 S3 (Black)",
+          shortDescription: "Heavy-duty water-resistant Barton split leather mid-cut safety boot.",
+          fullDescription: "Mid-cut ankle safety shoe providing enhanced lateral stability, Barton split leather upper, EN ISO 20345:2022 S3 certification, and oil- and acid-resistant dual density PU sole.",
+          certifications: "EN ISO 20345:2022 S3 (water-resistant)",
+          material: "Barton printed split leather with side reflector",
+          sizes: "38 - 47",
+          specifications: [
+            "EN ISO 20345:2022 S3 (water-resistant)",
+            "Steel toe (200J) and steel midplate (1100N)",
+            "Barton printed split leather with side reflector",
+            "Dual density PU (DDPU) sole (slip, oil and heat-resistant)",
+            "Anti-static with moulded EVA footbed"
+          ],
+          image: "/uploads/products/footwear/ss-26-s3.jpg",
+          featured: false
+        },
+        {
+          id: "workwear-collection",
+          name: "High-Visibility Uniforms & Industrial Workwear",
+          brand: "RANGERS WORKWEAR",
+          category: "workwear",
+          categoryName: "Safety Garments & Workwear",
+          sku: "",
+          model: "Workwear collection",
+          shortDescription: "High-visibility garments, polycotton coveralls, 100% cotton suits, and certified EN ISO 11611/11612 fire-retardant industrial workwear.",
+          fullDescription: "The published company category describes high-visibility garments, polycotton coveralls, 100% cotton suits, and certified EN ISO 11611/11612 fire-retardant industrial workwear. Model-specific data was not supplied in the public product response.",
+          certifications: "EN ISO 11611/11612 fire-retardant workwear",
+          material: "No material details supplied in the public category data",
+          sizes: "No size range supplied in the public category data",
+          specifications: [
+            "High-visibility garments",
+            "Polycotton coveralls",
+            "100% cotton suits",
+            "EN ISO 11611/11612 fire-retardant workwear"
+          ],
+          image: "/uploads/products/1792354121270-Certified_High-Visibility_Uniforms___100__Cotton_Industrial_Workwear.jpeg",
+          featured: true,
+          isCollection: true
+        }
+      ],
+      company: {
+        name: "Rangers Safety Systems LLC",
+        aboutHeading: "Trusted Partner in Regional Workplace Protection",
+        about: "For three decades, Rangers Safety Systems LLC has been the UAE's trusted name in occupational health and safety. Established in 1996 as a proud UAE-based enterprise, we safeguard workforce lives and elevate workplace standards for government and private organisations across the GCC region through our exclusive certified product lines.",
+        address: "Unit SH01, Street 57, Jebel Ali Industrial First, Dubai 50791, United Arab Emirates",
+        phone: "+971 4 244 5408",
+        phoneHref: "+97142445408",
+        email: "info@rangers-safety.com",
+        trn: "100391707500003",
+        location: "Dubai International Convention and Exhibition Centre"
+      },
+      exhibition: {
+        title: "2026 Exhibition Showcase",
+        subtitle: "Dubai International Convention and Exhibition Centre",
+        description: "Explore the digital exhibition catalogue featuring certified safety footwear, water-resistant S3 boots, high-visibility garments, and industrial workwear for professional teams.",
+        coverImage: "assets/rangers-workwear.jpeg"
+      },
+      advantages: [
+        {
+          title: "Stringent International Standards",
+          description: "Stringent EN ISO 20345:2022 and EN ISO 20471 compliance."
+        },
+        {
+          title: "UAE-Based Heritage",
+          description: "Established in Dubai in 1996, supporting local economic growth and community job creation."
+        },
+        {
+          title: "Regional Logistics",
+          description: "GCC-wide logistics from Jebel Ali Industrial First, Dubai."
+        },
+        {
+          title: "Custom Workwear",
+          description: "Corporate embroidery, sizing, and batch manufacturing for workwear."
+        }
+      ]
+    };
+
+    const state = {
+      route: { view: "home", id: "", category: "all", page: 0, hash: "" },
+      products: LOCAL_DATA.products.slice(),
+      bookletProducts: LOCAL_DATA.products.slice(),
+      categories: LOCAL_DATA.categories.slice(),
+      company: { ...LOCAL_DATA.company },
+      social: { ...CONFIG.social },
+      whatsappUrl: CONFIG.whatsappUrl,
+      homeCategory: "all",
+      listCategory: "all",
+      search: "",
+      bookletIndex: 0,
+      galleryIndex: 0,
+      dataReady: !/^https?:$/.test(window.location.protocol),
+      printDialogRequested: false
+    };
+
+    const SVG = {
+      arrow: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+      back: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 12H5m0 0 7 7m-7-7 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+      search: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>',
+      photo: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7.2h3l1.3-2h7.4l1.3 2h3v12H4v-12Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" stroke="currentColor" stroke-width="1.5"/><path d="M18 9.6h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+      phone: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7.3 3.8h2.6l1.3 4.1-1.8 1.7a15.2 15.2 0 0 0 5.1 5.1l1.7-1.8 4.1 1.3v2.6c0 .9-.7 1.6-1.6 1.6A15.6 15.6 0 0 1 5.7 5.4c0-.9.7-1.6 1.6-1.6Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+      mail: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="m4.5 6.5 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+      pin: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 10.1c0 5.1-7 10.4-7 10.4S5 15.2 5 10.1a7 7 0 1 1 14 0Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.2" stroke="currentColor" stroke-width="1.6"/></svg>',
+      linkedin: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.2 3.8a2.1 2.1 0 1 1 0 4.2 2.1 2.1 0 0 1 0-4.2ZM3.5 9.4h3.4v11.1H3.5V9.4Zm5.7 0h3.2v1.5h.05c.44-.83 1.52-1.7 3.14-1.7 3.35 0 3.97 2.2 3.97 5.06v6.24h-3.4v-5.53c0-1.32-.03-3.02-1.84-3.02-1.84 0-2.12 1.44-2.12 2.92v5.63H9.2V9.4Z"/></svg>',
+      instagram: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" stroke="currentColor" stroke-width="1.8"/><circle cx="17.7" cy="6.6" r="1.1" fill="currentColor"/></svg>',
+      facebook: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.6 21v-8.2h2.8l.42-3.2H13.6V7.55c0-.93.26-1.56 1.6-1.56h1.72V3.13c-.3-.04-1.36-.13-2.59-.13-2.56 0-4.3 1.56-4.3 4.44V9.6H7.14v3.2h2.89V21h3.57Z"/></svg>'
+    };
+
+    function escapeHTML(value) {
+      return String(value == null ? "" : value).replace(/[&<>"']/g, function (character) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[character];
+      });
+    }
+
+    function assetURL(path) {
+      if (!path) return "";
+      if (/^(?:https?:\/\/|data:|assets\/)/i.test(path)) return path;
+      if (path.startsWith("../")) return path;
+      if (path.startsWith("storage/uploads/")) return "../" + path;
+      return CONFIG.referenceOrigin.replace(/\/$/, "") + (path.charAt(0) === "/" ? path : "/" + path);
+    }
+
+    function isExcludedCategory(value) {
+      return /safety[\s-]*gear|\bppe\b/i.test(String(value || ""));
+    }
+
+    function visibleProducts(products) {
+      return (Array.isArray(products) ? products : []).filter(function (product) {
+        return !isExcludedCategory(product.category) && !isExcludedCategory(product.categoryName);
+      });
+    }
+
+    function productImage(product) {
+      if (product.image) return product.image;
+      if (product.id === "prod-01") return "assets/rangers-ss-08-s1p.png";
+      const category = categoryById(product.category);
+      const categoryName = product.categoryName || (category && category.name) || "";
+      const categoryId = /footwear|shoe|boot/i.test(categoryName) ? "safety-footwear" :
+        /clothing|workwear|uniform|garment/i.test(categoryName) ? "workwear" : "";
+      const approvedCategory = LOCAL_DATA.categories.find(function (item) { return item.id === categoryId; });
+      return approvedCategory ? approvedCategory.image : "";
+    }
+
+    function productImages(product) {
+      return Array.from(new Set([productImage(product)].concat(product.images || []).filter(Boolean)));
+    }
+
+    function productImageAlt(product) {
+      if (product.id === "prod-01") return product.name;
+      const category = categoryById(product.category);
+      const categoryName = product.categoryName || (category && category.name) || "";
+      const categoryLabel = /footwear|shoe|boot/i.test(categoryName) ? "safety footwear" :
+        /clothing|workwear|uniform|garment/i.test(categoryName) ? "industrial workwear" : "safety products";
+      return "Rangers " + categoryLabel + " collection image shown with " + product.name;
+    }
+
+    function normalizeProduct(p) {
+      const details = p.specifications && typeof p.specifications === "object" ? p.specifications : {};
+      const excludedSpecifications = new Set(["sku", "source_pdf", "source_page", "source_heading", "manual_review", "subcategory", "image_path", "image_status", "extraction_notes"]);
+      const specs = Array.isArray(details) ? details : Object.entries(details).flatMap(function ([key, value]) {
+        if (excludedSpecifications.has(key) || value == null || value === "") return [];
+        const label = key.replace(/_/g, " ").replace(/\b\w/g, function (letter) { return letter.toUpperCase(); });
+        return (Array.isArray(value) ? value : [value]).map(function (item) { return label + ": " + item; });
+      });
+      const sourceHeading = String(details.source_heading || "");
+      const brand = sourceHeading.includes(" - ") ? sourceHeading.split(" - ")[0].trim() : "Rangers Workwear";
+      return { ...p, id: String(p.id), category: String(p.category_id || p.category || ''),
+        categoryName: p.category_name || p.categoryName || '', shortDescription: p.short_description || p.shortDescription || '',
+        fullDescription: p.full_description || p.fullDescription || '', specifications: specs,
+        sku: p.sku || details.sku || '', material: p.material || details.upper_material || '',
+        sizes: p.sizes || details.sizes || '', certifications: p.certifications || (Array.isArray(details.standards) ? details.standards.join(", ") : details.standards || ''),
+        subcategory: details.subcategory || '', brand: p.brand || brand,
+        image: p.main_image ? '../'+p.main_image : (p.image || ''),
+        images: (p.images || []).map(x => x.image_path ? '../'+x.image_path : x), featured: true };
+    }
+    function mergeProducts(remoteProducts) {
+      return visibleProducts(Array.isArray(remoteProducts) ? remoteProducts.map(normalizeProduct) : LOCAL_DATA.products);
+    }
+
+    async function apiJSON(path) {
+      if (!/^https?:$/.test(window.location.protocol)) return null;
+      const urls = [CONFIG.apiBase.replace(/\/$/, "") + "/" + path];
+      
+      for (const url of urls) {
+        const controller = typeof AbortController === "function" ? new AbortController() : null;
+        const timeout = controller ? window.setTimeout(function () { controller.abort(); }, 1800) : null;
+        try {
+          const response = await fetch(url, {
+            headers: { "Accept": "application/json" },
+            signal: controller ? controller.signal : undefined
+          });
+          if (!response.ok) continue;
+          const contentType = response.headers.get("content-type") || "";
+          if (!contentType.toLowerCase().includes("json")) continue;
+          return await response.json();
+        } catch (error) {
+          // Static hosts may not expose an API; the local catalogue remains available.
+        } finally {
+          if (timeout) window.clearTimeout(timeout);
+        }
+      }
+      return null;
+    }
+
+    const dataService = {
+      async fetchProducts() {
+        const data = await apiJSON("products");
+        return Array.isArray(data) ? mergeProducts(data) : null;
+      },
+      async fetchCategories() {
+        const [direct, cms] = await Promise.all([apiJSON("categories"), apiJSON("cms")]);
+        const list = Array.isArray(direct) ? direct : cms && cms.categoryShowcase && cms.categoryShowcase.categories;
+        if (!Array.isArray(list)) return LOCAL_DATA.categories.slice();
+        const clean = list.filter(function (category) {
+          return !isExcludedCategory(category.id) && !isExcludedCategory(category.name);
+        });
+        return Array.isArray(direct) ? clean.map(function (category) {
+          const name = String(category.name || "");
+          const local = LOCAL_DATA.categories.find(function (item) {
+            return item.id === (/footwear|shoe|boot/i.test(name) ? "safety-footwear" : "workwear");
+          });
+          return {
+            ...category,
+            id: String(category.id),
+            description: category.description && !category.description.startsWith("Imported category") ? category.description : (local ? local.description : ""),
+            image: category.image_path ? "../" + category.image_path : (category.image || (local ? local.image : "")),
+            altText: (local && local.altText) || name
+          };
+        }) : (clean.length ? clean : LOCAL_DATA.categories.slice());
+      },
+      async fetchProductDetails(id) {
+        const direct = await apiJSON("products/" + encodeURIComponent(id));
+        if (direct && direct.id) {
+          const normalized = normalizeProduct(direct);
+          if (!isExcludedCategory(normalized.category) && !isExcludedCategory(normalized.categoryName)) return normalized;
+        }
+        const product = state.products.find(function (item) { return item.id === id; });
+        return product || null;
+      },
+      async fetchBookletContent() {
+        const data = await apiJSON("booklet");
+        if (Array.isArray(data)) return visibleProducts(data);
+        if (data && Array.isArray(data.products)) return mergeProducts(data.products);
+        return visibleProducts(state.products);
+      },
+      async fetchCompanyInformation() {
+        const data = await apiJSON("company");
+        if (!data || typeof data !== "object") return { ...LOCAL_DATA.company };
+        const footer = data.footer || {};
+        const intro = data.intro || {};
+        return {
+          ...LOCAL_DATA.company,
+          name: data.company_name || footer.companyName || LOCAL_DATA.company.name,
+          aboutHeading: data.about_heading || intro.heading || LOCAL_DATA.company.aboutHeading,
+          about: data.about_description || intro.description || LOCAL_DATA.company.about,
+          address: footer.address || LOCAL_DATA.company.address,
+          phone: footer.phone || LOCAL_DATA.company.phone,
+          email: footer.email || LOCAL_DATA.company.email,
+          trn: footer.trn || LOCAL_DATA.company.trn
+        };
+      },
+      async fetchSocialMediaLinks() {
+        const data = await apiJSON("social-links");
+        if (Array.isArray(data)) return Object.fromEntries(data.map(x => [x.platform,x.url]));
+        const footer = data && data.footer || {};
+        const source = data && (data.social || data.socialLinks || footer.social || footer.socialLinks);
+        return { ...CONFIG.social, ...(source || {}) };
+      },
+      async fetchWhatsAppSettings() {
+        const data = await apiJSON("settings/public");
+        if (data && Object.prototype.hasOwnProperty.call(data,"whatsapp_number")) {const num=String(data.whatsapp_number||"").replace(/\D/g,"");return {url:data.whatsapp_enabled==="1"&&num?"https://wa.me/"+num:"",number:data.whatsapp_number||""}}
+        const source = data && (data.whatsapp || data.footer || data);
+        if (!source) return { url: CONFIG.whatsappUrl, number: CONFIG.whatsappNumber };
+        return {
+          url: source.whatsappUrl || source.whatsAppUrl || source.url || CONFIG.whatsappUrl,
+          number: source.whatsappNumber || source.whatsAppNumber || source.number || CONFIG.whatsappNumber
+        };
+      },
+      async fetchBrandingSettings() {
+        const data = await apiJSON("settings/public");
+        return data && typeof data === "object" ? data : null;
+      }
+    };
+    window.RangersDataService = dataService;
+    window.RangersMissingAssets = [];
+
+    function routeFromLocation() {
+      const params = new URLSearchParams(window.location.search);
+      let view = params.get("view") || "home";
+      const hash = window.location.hash.replace(/^#/, "");
+      const aliases = { microsite: "booklet", catalogue: "booklet", "digital-booklet": "booklet", "product-details": "product", details: "product" };
+      if (aliases[view]) view = aliases[view];
+      if (!params.get("view") && ["products", "contact", "home", "exhibition", "booklet", "microsite"].includes(hash)) {
+        view = aliases[hash] || hash;
+      }
+      const sectionHash = ["about", "exhibition", "advantages"].includes(hash) ? hash : "";
+      const requestedCategory = params.get("category") || "all";
+      return {
+        view: ["home", "products", "exhibition", "product", "booklet", "contact", "schedule", "print-catalogue"].includes(view) ? view : "home",
+        id: params.get("id") || params.get("product") || "",
+        category: isExcludedCategory(requestedCategory) ? "all" : requestedCategory,
+        page: Math.max(0, Number.parseInt(params.get("page") || "0", 10) || 0),
+        hash: sectionHash
+      };
+    }
+
+    function routeURL(view, options) {
+      const url = new URL(window.location.href);
+      url.searchParams.set("view", view);
+      ["id", "category", "page"].forEach(function (key) { url.searchParams.delete(key); });
+      if (options && options.id) url.searchParams.set("id", options.id);
+      if (options && options.category && options.category !== "all") url.searchParams.set("category", options.category);
+      if (options && options.page != null) url.searchParams.set("page", String(options.page));
+      url.hash = options && options.section ? options.section : "";
+      return url;
+    }
+
+    function navigate(view, options) {
+      options = options || {};
+      if (view === "microsite" || view === "catalogue") view = "booklet";
+      const url = routeURL(view, options);
+      window.history.pushState({}, "", url);
+      state.route = routeFromLocation();
+      if (view === "products" || view === "exhibition") state.listCategory = options.category || "all";
+      if (view === "booklet" && options.page != null) state.bookletIndex = options.page;
+      state.galleryIndex = 0;
+      closeMobileMenu();
+      renderApp();
+      if (options.section) {
+        window.setTimeout(function () { scrollToSection(options.section); }, 25);
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
+
+    function iconFallback(label) {
+      return '<div class="media-fallback" hidden><span class="fallback-mark">' + SVG.photo + '</span><span class="fallback-label">' + escapeHTML(label || "Approved image unavailable") + '</span></div>';
+    }
+
+    function mediaMarkup(path, alt, className, fallbackLabel, loading) {
+      const imagePath = assetURL(path);
+      const classValue = className ? " " + className : "";
+      return '<div class="media-frame' + classValue + '" data-image-frame>' +
+        '<img src="' + escapeHTML(imagePath) + '" data-asset="' + escapeHTML(path || "") + '" alt="' + escapeHTML(alt || "") + '" loading="' + (loading || "lazy") + '">' +
+        iconFallback(fallbackLabel) +
+        '</div>';
+    }
+
+    function bindImageFallbacks(scope) {
+      const root = scope || document;
+      root.querySelectorAll("img[data-asset]:not([data-fallback-bound])").forEach(function (image) {
+        image.dataset.fallbackBound = "true";
+        image.addEventListener("error", function () {
+          const asset = image.dataset.asset || image.src;
+          if (!window.RangersMissingAssets.includes(asset)) window.RangersMissingAssets.push(asset);
+          image.hidden = true;
+          const frame = image.closest("[data-image-frame]");
+          const fallback = frame && frame.querySelector(".media-fallback");
+          if (fallback) fallback.hidden = false;
+          console.info("Approved image unavailable:", asset);
+        });
+        if (image.complete && image.naturalWidth === 0) image.dispatchEvent(new Event("error"));
+      });
+    }
+
+    function productCard(product) {
+      const category = state.categories.find(function (item) { return item.id === product.category; });
+      const categoryName = category ? category.name : (product.categoryName || "Catalogue product");
+      const detailURL = routeURL("product", { id: product.id });
+      return '<article class="product-card reveal">' +
+        '<a class="product-media" href="' + escapeHTML(detailURL.href) + '" data-route="product" data-id="' + escapeHTML(product.id) + '" aria-label="View details for ' + escapeHTML(product.name) + '">' +
+          mediaMarkup(productImage(product), productImageAlt(product), "", "Product image unavailable", "lazy") +
+        '</a>' +
+        '<div class="product-copy">' +
+          '<span class="product-brand">' + escapeHTML(product.brand || "Rangers") + '</span>' +
+          '<h3><a href="' + escapeHTML(detailURL.href) + '" data-route="product" data-id="' + escapeHTML(product.id) + '">' + escapeHTML(product.name) + '</a></h3>' +
+          '<span class="product-category-name">' + escapeHTML(categoryName) + '</span>' +
+          '<p>' + escapeHTML(product.shortDescription || product.fullDescription || "") + '</p>' +
+          '<a class="product-details-link" href="' + escapeHTML(detailURL.href) + '" data-route="product" data-id="' + escapeHTML(product.id) + '">View Details ' + SVG.arrow + '</a>' +
+        '</div>' +
+      '</article>';
+    }
+
+    function categoryTabs(scope, selected) {
+      const tabs = [{ id: "all", name: "All products" }].concat(state.categories.map(function (category) {
+        return { id: category.id, name: category.name };
+      }));
+      return '<div class="category-tabs" data-filter-scope="' + escapeHTML(scope) + '" role="group" aria-label="Filter products by category">' + tabs.map(function (tab) {
+        const active = selected === tab.id ? " is-active" : "";
+        return '<button class="category-tab' + active + '" type="button" data-filter="' + escapeHTML(tab.id) + '" aria-pressed="' + (selected === tab.id ? "true" : "false") + '">' + escapeHTML(tab.name) + '</button>';
+      }).join("") + '</div>';
+    }
+
+    function categoryById(id) {
+      return state.categories.find(function (category) { return category.id === id; });
+    }
+
+    function renderHomeCategories() {
+      return state.categories.map(function (category) {
+        const categoryURL = routeURL("products", { category: category.id });
+        return '<a class="category-tile reveal" href="' + escapeHTML(categoryURL.href) + '" data-route="products" data-category="' + escapeHTML(category.id) + '">' +
+          mediaMarkup(category.image, category.altText || category.name, "", "Category image unavailable", "lazy") +
+          '<div class="category-tile-content has-arrow"><span class="category-tile-label">Exhibition catalogue</span><h3>' + escapeHTML(category.name) + '</h3><p>' + escapeHTML(category.description) + '</p></div>' +
+          '<span class="category-tile-arrow" aria-hidden="true">' + SVG.arrow + '</span>' +
+        '</a>';
+      }).join("");
+    }
+
+    function homeTemplate() {
+      return '<section class="hero" id="top" aria-labelledby="heroTitle">' +
+        '<div class="site-container hero-inner">' +
+          '<div class="hero-copy"><p class="hero-brand">Rangers Safety Systems LLC</p><h1 id="heroTitle">Protecting the region\'s workforce</h1>' +
+            '<p class="hero-intro">Explore certified industrial safety footwear and workwear for demanding professional environments across Dubai, the UAE, and the GCC.</p>' +
+            '<div class="hero-actions"><a class="button button-primary" href="?view=products" data-route="products">Explore Products ' + SVG.arrow + '</a><a class="button button-outline-light" href="?view=contact" data-route="contact">Request Corporate Quote</a></div>' +
+          '</div>' +
+          '<div class="hero-visual">' + mediaMarkup("assets/hero-construction.jpg", "Construction workers wearing hard hats and high-visibility safety clothing", "hero-photo", "Construction site image unavailable", "eager") + '</div>' +
+        '</div>' +
+      '</section>' +
+      '<section class="about-section" id="about"><div class="site-container about-grid">' +
+        '<div class="about-copy reveal"><p class="eyebrow">Company introduction</p><h2 class="section-title">' + escapeHTML(state.company.aboutHeading || LOCAL_DATA.company.aboutHeading) + '</h2>' +
+          '<p class="section-lead">' + escapeHTML(state.company.about || LOCAL_DATA.company.about) + '</p>' +
+          '<div class="about-note">Established in 1996 in Dubai, UAE</div><div class="about-actions"><a class="button-text" href="?view=contact" data-route="contact">Read corporate profile ' + SVG.arrow + '</a></div>' +
+        '</div>' +
+        '<div class="about-image about-brand-visual reveal"><img src="assets/rangers-logo.png" alt="Rangers Safety Systems LLC logo" loading="lazy"><p>Protecting UAE workforces since 1996</p></div>' +
+      '</div></section>' +
+      '<section class="exhibition-section" id="exhibition"><div class="site-container">' +
+        '<div class="exhibition-head"><div class="reveal"><p class="eyebrow">Rangers Safety Systems LLC</p><h2 class="section-title">2026 Exhibition Showcase</h2><p class="section-lead">Browse the exhibition selection of safety footwear and industrial workwear.</p></div><div class="exhibition-actions"><a class="button button-blue" href="?view=booklet" data-route="booklet">Open Digital Booklet ' + SVG.arrow + '</a><a class="button button-outline-blue" href="?view=exhibition" data-route="exhibition">View Showcase</a></div></div>' +
+        categoryTabs("home", state.homeCategory) +
+        '<div class="product-grid" id="homeProductGrid" data-grid-scope="home"></div>' +
+        '<div class="catalogue-more"><a class="button-text" href="?view=products" data-route="products">View all products ' + SVG.arrow + '</a></div>' +
+      '</div></section>' +
+      '<section class="advantages-section" id="advantages"><div class="site-container">' +
+        '<div class="reveal"><p class="eyebrow" style="color:#9EBE96">Why Rangers</p><h2 class="section-title">Why GCC industry leaders rely on Rangers</h2><p class="section-lead">Three decades of dedication to workforce safety, quality assurance, and regional service.</p></div>' +
+        '<div class="advantages-grid">' + LOCAL_DATA.advantages.map(function (item) { return '<article class="advantage-item reveal"><h3>' + escapeHTML(item.title) + '</h3><p>' + escapeHTML(item.description) + '</p></article>'; }).join("") + '</div>' +
+      '</div></section>' +
+      '<section class="contact-cta"><div class="site-container contact-cta-inner"><div><h2>Protect your workforce with certified gear</h2><p>Contact Rangers Safety Systems for product details and corporate enquiries.</p></div><a class="button button-primary" href="?view=contact" data-route="contact">Contact Rangers ' + SVG.arrow + '</a></div></section>';
+    }
+
+    function listingIntro(view) {
+      if (view === "exhibition") {
+        return '<section class="exhibition-hero"><div class="site-container exhibition-hero-inner">' +
+          '<div class="exhibition-hero-copy"><p class="eyebrow">Rangers Safety Systems LLC</p><h1>2026 Exhibition Showcase</h1><p>' + escapeHTML(LOCAL_DATA.exhibition.description) + '</p><p class="exhibition-place">' + escapeHTML(LOCAL_DATA.exhibition.subtitle) + '</p>' +
+              '<div class="exhibition-hero-actions"><a class="button button-primary" href="?view=booklet" data-route="booklet">Open Digital Booklet ' + SVG.arrow + '</a><a class="button button-outline-light" href="assets/2026-exhibition-catalogue.pdf" download="Rangers-2026-Exhibition-Catalogue.pdf">Download PDF Catalogue ' + SVG.arrow + '</a><a class="button button-outline-light" href="?view=schedule" data-route="schedule">Schedule Exhibition Meeting</a></div></div>' +
+          '<div class="exhibition-cover-image">' + mediaMarkup(LOCAL_DATA.exhibition.coverImage, "Exhibition catalogue workwear image", "", "Catalogue cover image unavailable", "eager") + '</div>' +
+        '</div></section>';
+      }
+      return '<section class="page-intro"><div class="site-container"><div class="breadcrumbs"><a href="?view=home" data-route="home">Home</a><span>/</span><span>Products</span></div><p class="eyebrow">Exhibition catalogue</p><h1>Product Catalogue</h1><p class="section-lead">Browse approved Rangers Safety Systems footwear and workwear product details.</p></div></section>';
+    }
+
+    function productListTemplate(view) {
+      const isExhibition = view === "exhibition";
+      return listingIntro(view) + '<section class="' + (isExhibition ? "exhibition-listing" : "listing-section") + '"><div class="site-container">' +
+        (isExhibition ? '<div class="section-heading-row"><div class="section-heading-copy"><p class="eyebrow">Browse catalogue</p><h2 class="section-title">Featured exhibition products</h2><p class="section-lead">Product information is rendered from the shared catalogue data source.</p></div></div>' : '') +
+        '<div class="listing-tools">' + categoryTabs("listing", state.listCategory) + '<label class="search-field"><span class="visually-hidden">Search products</span>' + SVG.search + '<input type="search" id="productSearch" value="' + escapeHTML(state.search) + '" placeholder="Search products" autocomplete="off"></label></div>' +
+        '<div class="product-grid" id="catalogueGrid" data-grid-scope="listing"></div>' +
+      '</div></section>' + (isExhibition ? qrSectionTemplate() : "");
+    }
+
+    function breadcrumbHTML(items) {
+      return '<div class="breadcrumbs">' + items.map(function (item, index) {
+        const sep = index ? '<span>/</span>' : '';
+        return sep + (item.href ? '<a href="' + escapeHTML(item.href) + '"' + (item.route ? ' data-route="' + escapeHTML(item.route) + '"' : '') + '>' + escapeHTML(item.label) + '</a>' : '<span>' + escapeHTML(item.label) + '</span>');
+      }).join("") + '</div>';
+    }
+
+    function detailTemplate(product) {
+      const category = categoryById(product.category);
+      const uniqueImages = productImages(product);
+      const image = uniqueImages[state.galleryIndex] || uniqueImages[0] || "";
+      const meta = [
+        product.sku ? { label: "Product code", value: product.sku } : null,
+        product.subcategory ? { label: "Collection", value: product.subcategory } : null,
+        product.material ? { label: "Material", value: product.material } : null,
+        product.sizes ? { label: "Sizes", value: product.sizes } : null,
+        product.certifications ? { label: "Certification", value: product.certifications } : null
+      ].filter(Boolean);
+      const related = state.products.filter(function (item) { return item.category === product.category && item.id !== product.id; }).slice(0, 3);
+      return '<section class="detail-page"><div class="site-container">' + breadcrumbHTML([
+        { label: "Home", href: "?view=home", route: "home" },
+        { label: "Products", href: "?view=products", route: "products" },
+        { label: product.name }
+      ]) +
+        '<div class="detail-grid"><div class="detail-gallery">' +
+        '<div class="detail-main-image" id="detailMainFrame" data-image-frame><img id="productMainImage" src="' + escapeHTML(assetURL(image)) + '" data-asset="' + escapeHTML(image) + '" alt="' + escapeHTML(productImageAlt(product)) + '" loading="eager">' + iconFallback("Product image unavailable") + '</div>' +
+          (uniqueImages.length > 1 ? '<div class="detail-thumbnails" aria-label="Additional product images">' + uniqueImages.map(function (source, index) {
+            return '<button class="detail-thumb' + (index === state.galleryIndex ? ' is-active' : '') + '" type="button" data-image-frame data-gallery-index="' + index + '" aria-label="View image ' + (index + 1) + '"><img src="' + escapeHTML(assetURL(source)) + '" data-asset="' + escapeHTML(source) + '" alt="" loading="lazy">' + iconFallback("Product image unavailable") + '</button>';
+          }).join("") + '</div>' : '') +
+        '</div><div class="detail-copy"><span class="product-brand">' + escapeHTML(product.brand || "Rangers") + '</span><h1>' + escapeHTML(product.name) + '</h1><a class="detail-category" href="?view=products&amp;category=' + escapeHTML(product.category) + '" data-route="products" data-category="' + escapeHTML(product.category) + '">' + escapeHTML(category ? category.name : product.categoryName || "Catalogue") + '</a>' +
+          '<p class="detail-description">' + escapeHTML(product.fullDescription || product.shortDescription || "") + '</p>' +
+          (meta.length ? '<div class="detail-meta">' + meta.map(function (item) { return '<div><span class="detail-meta-label">' + escapeHTML(item.label) + '</span><span class="detail-meta-value">' + escapeHTML(item.value) + '</span></div>'; }).join("") + '</div>' : '') +
+          '<div class="specifications"><h2>Technical specifications</h2><ul>' + (product.specifications || []).map(function (spec) { return '<li>' + escapeHTML(spec) + '</li>'; }).join("") + '</ul></div>' +
+          '<div class="detail-actions"><a class="button button-blue" href="?view=products" data-route="products">Back to Catalogue</a><a class="button button-outline-blue" href="?view=contact" data-route="contact">Request Product Information</a></div>' +
+        '</div></div></div></section>' +
+        (related.length ? '<section class="related-section"><div class="site-container"><h2 class="section-title">Related catalogue products</h2><div class="product-grid">' + related.map(productCard).join("") + '</div></div></section>' : '');
+    }
+
+    function bookletTemplate() {
+      const pdf = CONFIG.cataloguePdfUrl;
+      return '<section class="booklet-page"><div class="site-container">' +
+        '<div class="booklet-topbar"><div class="booklet-brandline"><img class="brand-logo" src="assets/rangers-logo.png" alt="Rangers Safety Systems LLC"></div><a class="booklet-back" href="?view=home" data-route="home">' + SVG.back + 'Return to website</a></div>' +
+        '<div class="booklet-title-row"><div><p class="eyebrow">2026 Exhibition Showcase</p><h1>Digital Catalogue</h1><p>View the official exhibition catalogue below or download the original PDF.</p></div><div class="catalogue-actions"><a class="button button-outline-light" href="' + pdf + '" target="_blank" rel="noopener">Open PDF in new tab</a><a class="button button-primary" href="' + pdf + '" download="Rangers-2026-Exhibition-Catalogue.pdf">Download PDF</a></div></div>' +
+        '<iframe class="catalogue-pdf-viewer" src="' + pdf + '#toolbar=1&navpanes=0&view=FitH" title="Rangers 2026 Exhibition Catalogue PDF" loading="lazy"></iframe>' +
+        '<p class="catalogue-help">If the PDF viewer is unavailable on your device, use Open PDF in new tab or Download PDF above.</p>' +
+      '</div></section>';
+    }
+
+    function qrSectionTemplate() {
+      return '<section class="qr-section"><div class="site-container qr-layout"><div class="qr-copy"><p class="eyebrow">Exhibition access</p><h2 class="section-title">Scan to explore Rangers</h2><p class="section-lead">Scan the QR code with your phone camera.</p></div><img class="qr-preview qr-png" src="' + escapeHTML(CONFIG.qrCodePdfUrl) + '" alt="Scannable Rangers exhibition QR code" loading="lazy"></div></section>';
+    }
+
+    function printCatalogueTemplate() {
+      const products = visibleProducts(state.products);
+      return '<section class="print-catalogue"><div class="site-container"><header class="print-catalogue-header"><img src="assets/rangers-logo.png" alt="Rangers Safety Systems LLC"><div><p class="eyebrow">2026 Exhibition Showcase</p><h1>Product Catalogue</h1></div></header><p class="schedule-note print-hide">Use your browser print dialog and choose “Save as PDF” to download this catalogue.</p><div class="print-product-grid">' +
+        products.map(function (product) {
+          const specs = Array.isArray(product.specifications) ? product.specifications : [];
+          return '<article class="print-product"><div class="print-product-image" data-image-frame><img src="' + escapeHTML(assetURL(productImage(product))) + '" data-asset="' + escapeHTML(productImage(product)) + '" alt="' + escapeHTML(productImageAlt(product)) + '" loading="eager">' + iconFallback("Product range image unavailable") + '</div><div><span class="product-brand">' + escapeHTML(product.brand || "Rangers") + '</span><h2>' + escapeHTML(product.name) + '</h2><p>' + escapeHTML(product.fullDescription || product.shortDescription || "") + '</p>' + (specs.length ? '<div class="specifications"><h3>Specifications</h3><ul>' + specs.map(function (spec) { return '<li>' + escapeHTML(spec) + '</li>'; }).join("") + '</ul></div>' : '') + '</div></article>';
+        }).join("") +
+      '</div></div></section>';
+    }
+
+    function scheduleTemplate() {
+      const whatsapp = escapeHTML(CONFIG.whatsappUrl);
+      return '<section class="contact-page"><div class="site-container"><div class="breadcrumbs"><a href="?view=home" data-route="home">Home</a><span>/</span><a href="?view=exhibition" data-route="exhibition">2026 Exhibition Showcase</a><span>/</span><span>Schedule a Meeting</span></div><p class="eyebrow">Meet the Rangers team</p><h1 class="page-intro-heading" style="margin-top:12px;color:var(--brand-blue);font-size:clamp(34px,4vw,52px);font-weight:900;letter-spacing:-.05em;line-height:1.1">Schedule an Exhibition Meeting</h1><p class="section-lead" style="margin-top:15px">Send your preferred meeting time and contact details to the Rangers team.</p><div class="contact-layout"><div class="contact-info"><h2>Request a time</h2><p class="schedule-note">This request opens your email application addressed to info@rangers-safety.com. The site does not make or confirm calendar bookings.</p><a class="button button-blue" style="margin-top:22px" href="' + whatsapp + '" target="_blank" rel="noopener noreferrer">Chat on WhatsApp ' + SVG.arrow + '</a></div><form class="contact-form" id="scheduleForm"><h2>Meeting request</h2><p>Your email application will open with the request details ready to send.</p><div class="form-grid"><div class="form-field"><label for="scheduleName">Full name</label><input id="scheduleName" name="name" type="text" autocomplete="name" required></div><div class="form-field"><label for="scheduleCompany">Company</label><input id="scheduleCompany" name="company" type="text" autocomplete="organization"></div><div class="form-field"><label for="scheduleEmail">Work email</label><input id="scheduleEmail" name="email" type="email" autocomplete="email" required></div><div class="form-field"><label for="schedulePhone">Phone</label><input id="schedulePhone" name="phone" type="tel" autocomplete="tel"></div><div class="form-field"><label for="scheduleDate">Preferred date</label><input id="scheduleDate" name="date" type="date" required></div><div class="form-field"><label for="scheduleTime">Preferred time</label><input id="scheduleTime" name="time" type="time" required></div><div class="form-field full-span"><label for="scheduleMessage">Meeting notes</label><textarea id="scheduleMessage" name="message" placeholder="Topics you would like to discuss"></textarea></div></div><div class="form-action"><button class="button button-primary" type="submit">Prepare Meeting Request ' + SVG.arrow + '</button><span class="form-status" id="scheduleStatus" role="status" aria-live="polite"></span></div></form></div></div></section>';
+    }
+
+    function contactTemplate() {
+      const company = state.company;
+      return '<section class="contact-page"><div class="site-container"><div class="breadcrumbs"><a href="?view=home" data-route="home">Home</a><span>/</span><span>Contact</span></div><p class="eyebrow">Contact Rangers</p><h1 class="page-intro-heading" style="margin-top:12px;color:var(--brand-blue);font-size:clamp(34px,4vw,52px);font-weight:900;letter-spacing:-.05em;line-height:1.1">Contact Us</h1><p class="section-lead" style="margin-top:15px">For product details and corporate enquiries, contact the Rangers Safety Systems team.</p>' +
+        '<div class="contact-layout"><div class="contact-info"><h2>Rangers Safety Systems LLC</h2><p>Industrial safety footwear and workwear for professional teams across the UAE and GCC.</p><div class="contact-details">' +
+          '<div class="contact-detail"><span class="contact-detail-icon">' + SVG.phone + '</span><div><span class="contact-detail-label">Telephone</span><span class="contact-detail-value"><a href="tel:' + escapeHTML(company.phoneHref || "") + '">' + escapeHTML(company.phone) + '</a></span></div></div>' +
+          '<div class="contact-detail"><span class="contact-detail-icon">' + SVG.mail + '</span><div><span class="contact-detail-label">Email</span><span class="contact-detail-value"><a href="mailto:' + escapeHTML(company.email) + '">' + escapeHTML(company.email) + '</a></span></div></div>' +
+          '<div class="contact-detail"><span class="contact-detail-icon">' + SVG.pin + '</span><div><span class="contact-detail-label">Address</span><span class="contact-detail-value">' + escapeHTML(company.address) + '</span></div></div>' +
+        '</div><a class="button button-blue" style="margin-top:24px" href="' + escapeHTML(CONFIG.whatsappUrl) + '" target="_blank" rel="noopener noreferrer">Chat on WhatsApp ' + SVG.arrow + '</a></div>' +
+        '<form class="contact-form" id="contactForm"><h2>Send an enquiry</h2><p>Your message will be prepared in your email application. This static frontend does not store submissions.</p>' +
+          '<div class="form-grid"><div class="form-field"><label for="contactName">Full name</label><input id="contactName" name="name" type="text" autocomplete="name" required></div><div class="form-field"><label for="contactCompany">Company</label><input id="contactCompany" name="company" type="text" autocomplete="organization"></div><div class="form-field"><label for="contactEmail">Work email</label><input id="contactEmail" name="email" type="email" autocomplete="email" required></div><div class="form-field"><label for="contactPhone">Phone</label><input id="contactPhone" name="phone" type="tel" autocomplete="tel"></div><div class="form-field full-span"><label for="contactCategory">Product area</label><select id="contactCategory" name="category"><option value="General enquiry">General enquiry</option>' + state.categories.map(function (category) { return '<option value="' + escapeHTML(category.name) + '">' + escapeHTML(category.name) + '</option>'; }).join("") + '</select></div><div class="form-field full-span"><label for="contactMessage">Message</label><textarea id="contactMessage" name="message" required></textarea></div></div>' +
+          '<div class="form-action"><button class="button button-primary" type="submit">Prepare Email ' + SVG.arrow + '</button><span class="form-status" id="formStatus" role="status" aria-live="polite"></span></div>' +
+        '</form></div></div></section>';
+    }
+
+    function notFoundTemplate() {
+      return '<section class="site-container not-found"><p class="eyebrow">Catalogue</p><h1>Product not found</h1><p>This product is not available in the approved catalogue data.</p><a class="button button-blue" href="?view=products" data-route="products">Back to products</a></section>';
+    }
+
+    function footerSocialMarkup() {
+      const links = [
+        { id: "linkedin", name: "LinkedIn", icon: SVG.linkedin },
+        { id: "instagram", name: "Instagram", icon: SVG.instagram },
+        { id: "facebook", name: "Facebook", icon: SVG.facebook }
+      ];
+      return links.map(function (item) {
+        const url = state.social[item.id] || "";
+        if (url) return '<a class="social-link" href="' + escapeHTML(url) + '" target="_blank" rel="noopener noreferrer" aria-label="Rangers on ' + item.name + '">' + item.icon + '</a>';
+        return '<span class="social-link is-unavailable" aria-label="' + item.name + ' company URL not supplied" title="Official ' + item.name + ' URL not supplied">' + item.icon + '</span>';
+      }).join("");
+    }
+
+    function updateFooterSocials() {
+      const node = document.getElementById("socialLinks");
+      if (node) node.innerHTML = footerSocialMarkup();
+      const note = document.getElementById("socialNote");
+      if (note) {
+        const missing = ["instagram", "facebook"].filter(function (name) { return !state.social[name]; });
+        note.textContent = missing.length ? "Official " + missing.join(" and ") + " URL not supplied." : "Follow Rangers Safety Systems on social media.";
+      }
+    }
+
+    function renderApp() {
+      state.route = routeFromLocation();
+      const route = state.route;
+      const app = document.getElementById("appMain");
+      if (route.view === "home") {
+        app.innerHTML = homeTemplate();
+      } else if (route.view === "products" || route.view === "exhibition") {
+        if (route.category !== "all" && !categoryById(route.category)) {
+          route.category = "all";
+          state.listCategory = "all";
+        } else if (route.category !== "all") {
+          state.listCategory = route.category;
+        }
+        app.innerHTML = productListTemplate(route.view);
+      } else if (route.view === "product") {
+        const product = state.products.find(function (item) { return item.id === route.id && !isExcludedCategory(item.category); });
+        app.innerHTML = product ? detailTemplate(product) : notFoundTemplate();
+      } else if (route.view === "booklet") {
+        app.innerHTML = bookletTemplate();
+        // Official PDF is embedded directly in the digital catalogue view.
+      } else if (route.view === "contact") {
+        app.innerHTML = contactTemplate();
+      } else if (route.view === "schedule") {
+        app.innerHTML = scheduleTemplate();
+      } else if (route.view === "print-catalogue") {
+        app.innerHTML = printCatalogueTemplate();
+      } else {
+        app.innerHTML = homeTemplate();
+      }
+      document.title = route.view === "product" ? ((state.products.find(function (item) { return item.id === route.id; }) || {}).name || "Product") + " | Rangers Safety Systems LLC" :
+        route.view === "products" ? "Product Catalogue | Rangers Safety Systems LLC" :
+        route.view === "exhibition" ? "2026 Exhibition Showcase | Rangers Safety Systems LLC" :
+        route.view === "booklet" ? "Digital Booklet | Rangers Safety Systems LLC" :
+        route.view === "contact" ? "Contact | Rangers Safety Systems LLC" :
+        route.view === "schedule" ? "Schedule an Exhibition Meeting | Rangers Safety Systems LLC" :
+        route.view === "print-catalogue" ? "2026 Exhibition Catalogue | Rangers Safety Systems LLC" :
+        "Rangers Safety Systems LLC | Exhibition Catalogue";
+      updateActiveNavigation();
+      updateFooterSocials();
+      updateProductGrid("home");
+      updateProductGrid("listing");
+      bindImageFallbacks(app);
+      setupReveal(app);
+      if (window.RangersCMS) window.RangersCMS.apply();
+      if (route.hash && route.view === "home") window.setTimeout(function () { scrollToSection(route.hash); }, 40);
+      if (route.view === "print-catalogue" && state.dataReady && !state.printDialogRequested) {
+        state.printDialogRequested = true;
+        window.setTimeout(function () { window.print(); }, 500);
+      }
+    }
+
+    function updateActiveNavigation() {
+      const current = state.route.view;
+      document.querySelectorAll(".main-nav .nav-link").forEach(function (link) {
+        const route = link.dataset.route;
+        const section = link.dataset.section;
+        const active = current === "home" ? (section ? state.route.hash === section : route === "home") :
+          (current === "products" && route === "products") ||
+          (current === "product" && route === "products") ||
+          (current === "exhibition" && route === "exhibition") ||
+          (current === "booklet" && route === "booklet") ||
+          (current === "contact" && route === "contact");
+        link.classList.toggle("is-active", Boolean(active));
+      });
+    }
+
+    function selectedProducts(scope) {
+      let list = state.products;
+      const category = scope === "home" ? state.homeCategory : state.listCategory;
+      if (scope === "home") {
+        const featured = list.filter(function (product) { return product.featured; });
+        const available = featured.length ? featured : list;
+        if (category === "all") {
+          const shoes = available.filter(function (product) { return /footwear|shoe|boot/i.test(product.categoryName); }).slice(0, 2);
+          const garments = available.filter(function (product) { return /clothing|workwear|uniform|garment/i.test(product.categoryName); }).slice(0, 1);
+          list = shoes.concat(garments);
+          if (!list.length) list = available.slice(0, 3);
+        } else {
+          list = available.filter(function (product) { return product.category === category; }).slice(0, 3);
+        }
+      } else if (category !== "all") {
+        list = list.filter(function (product) { return product.category === category; });
+      }
+      if (scope === "listing" && state.search.trim()) {
+        const query = state.search.trim().toLowerCase();
+        list = list.filter(function (product) {
+          return [product.name, product.brand, product.categoryName, product.shortDescription, product.sku].join(" ").toLowerCase().includes(query);
+        });
+      }
+      return visibleProducts(list);
+    }
+
+    function updateProductGrid(scope) {
+      const grid = document.getElementById(scope === "home" ? "homeProductGrid" : "catalogueGrid");
+      if (!grid) return;
+      const list = selectedProducts(scope);
+      grid.innerHTML = list.length ? list.map(productCard).join("") : '<p class="listing-empty">No products are available in this category.</p>';
+      bindImageFallbacks(grid);
+      setupReveal(grid);
+    }
+
+    function renderBooklet() {
+      const products = visibleProducts(state.bookletProducts.length ? state.bookletProducts : state.products);
+      const index = Math.min(Math.max(state.bookletIndex, 0), Math.max(products.length - 1, 0));
+      state.bookletIndex = index;
+      const current = products[index];
+      const indexNode = document.getElementById("bookletIndex");
+      const spread = document.getElementById("bookletSpread");
+      if (!indexNode || !spread || !current) return;
+      indexNode.innerHTML = '<div class="booklet-index-title">Catalogue index</div>' + products.map(function (product, productIndex) {
+        const image = productImage(product);
+        return '<button class="booklet-index-item' + (productIndex === index ? ' is-active' : '') + '" type="button" data-booklet-index="' + productIndex + '" aria-current="' + (productIndex === index ? 'page' : 'false') + '"><span class="booklet-index-thumb" data-image-frame>' +
+          '<img src="' + escapeHTML(assetURL(image)) + '" data-asset="' + escapeHTML(image) + '" alt="" loading="lazy">' + iconFallback("Image unavailable") +
+          '</span><span class="booklet-index-copy"><strong>' + escapeHTML(product.name) + '</strong><small>' + escapeHTML(product.categoryName || "Catalogue product") + '</small></span></button>';
+      }).join("");
+      const category = categoryById(current.category);
+      const image = productImage(current);
+      spread.innerHTML = '<div class="booklet-page-meta"><span>Rangers 2026 Exhibition Showcase</span><span>' + escapeHTML(category ? category.name : current.categoryName || "Catalogue product") + '</span></div>' +
+        '<div class="booklet-product"><div class="booklet-product-image" data-image-frame><img src="' + escapeHTML(assetURL(image)) + '" data-asset="' + escapeHTML(image) + '" alt="' + escapeHTML(productImageAlt(current)) + '" loading="eager">' + iconFallback("Product image unavailable") + '</div>' +
+          '<div class="booklet-copy"><span class="product-brand">' + escapeHTML(current.brand || "Rangers") + '</span><h2>' + escapeHTML(current.name) + '</h2><a class="detail-category" href="?view=products&amp;category=' + escapeHTML(current.category) + '" data-route="products" data-category="' + escapeHTML(current.category) + '">' + escapeHTML(category ? category.name : current.categoryName || "Catalogue") + '</a>' +
+            '<p>' + escapeHTML(current.fullDescription || current.shortDescription || "") + '</p><div class="specifications"><h2>Technical specifications</h2><ul>' + (current.specifications || []).map(function (spec) { return '<li>' + escapeHTML(spec) + '</li>'; }).join("") + '</ul></div>' +
+            '<a class="product-details-link" href="?view=product&amp;id=' + escapeHTML(current.id) + '" data-route="product" data-id="' + escapeHTML(current.id) + '">View product details ' + SVG.arrow + '</a></div>' +
+        '</div><div class="booklet-controls"><button type="button" data-booklet-step="-1"' + (index === 0 ? ' disabled' : '') + '>' + SVG.back + 'Previous</button><span class="booklet-counter">Product ' + String(index + 1).padStart(2, "0") + ' of ' + String(products.length).padStart(2, "0") + '</span><button type="button" data-booklet-step="1"' + (index >= products.length - 1 ? ' disabled' : '') + '>Next ' + SVG.arrow + '</button></div>';
+      bindImageFallbacks(document.getElementById("bookletIndex"));
+      bindImageFallbacks(spread);
+    }
+
+    function setBookletIndex(index) {
+      const products = visibleProducts(state.bookletProducts.length ? state.bookletProducts : state.products);
+      if (!products.length) return;
+      const nextIndex = Math.min(Math.max(index, 0), products.length - 1);
+      navigate("booklet", { page: nextIndex });
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById("toastMessage");
+      if (!toast) return;
+      toast.textContent = message;
+      toast.classList.add("is-visible");
+      window.clearTimeout(showToast.timer);
+      showToast.timer = window.setTimeout(function () { toast.classList.remove("is-visible"); }, 3300);
+    }
+
+    function setupReveal(scope) {
+      const root = scope || document;
+      const targets = root.querySelectorAll(".reveal:not([data-reveal-bound])");
+      if (!targets.length) return;
+      if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        targets.forEach(function (target) { target.classList.add("is-visible"); target.dataset.revealBound = "true"; });
+        return;
+      }
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: .08, rootMargin: "0px 0px -28px 0px" });
+      targets.forEach(function (target) { target.dataset.revealBound = "true"; observer.observe(target); });
+    }
+
+    function scrollToSection(id) {
+      const target = document.getElementById(id);
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function closeMobileMenu() {
+      const nav = document.getElementById("mainNav");
+      const toggle = document.getElementById("mobileMenuToggle");
+      if (nav) nav.classList.remove("is-open");
+      if (toggle) toggle.setAttribute("aria-expanded", "false");
+      if (toggle) toggle.setAttribute("aria-label", "Open navigation menu");
+    }
+
+    function setWhatsAppDestination(settings) {
+      if (!settings) return;
+      let destination = settings.url || "";
+      const number = settings.number || "";
+      if (!destination && number) {
+        const digits = String(number).replace(/\D/g, "");
+        if (digits) destination = "https://wa.me/" + digits;
+      }
+      if (destination) {
+        state.whatsappUrl = destination;
+        CONFIG.whatsappUrl = destination;
+        const button = document.getElementById("whatsappFloat");
+        button.classList.remove("is-pending");
+        button.setAttribute("aria-label", "Contact Rangers on WhatsApp");
+        button.setAttribute("title", "Contact Rangers on WhatsApp");
+      }
+    }
+
+    function setBrandingSettings(settings) {
+      if (!settings) return;
+      if (settings.logo_path) {
+        const logo = assetURL(settings.logo_path);
+        document.querySelectorAll(".brand-logo").forEach(function (image) {
+          image.src = logo;
+        });
+      }
+      if (settings.favicon_path) {
+        let favicon = document.querySelector('link[rel~="icon"]');
+        if (!favicon) {
+          favicon = document.createElement("link");
+          favicon.rel = "icon";
+          document.head.appendChild(favicon);
+        }
+        favicon.href = assetURL(settings.favicon_path);
+      }
+      if (settings.website_name) document.title = settings.website_name;
+    }
+
+    function updateHeaderOnScroll() {
+      const header = document.getElementById("siteHeader");
+      if (header) header.classList.toggle("is-scrolled", window.scrollY > 6);
+      const hero = document.querySelector(".hero");
+      if (hero && window.innerWidth > 767 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        hero.style.setProperty("--hero-shift", Math.min(window.scrollY * .07, 22) + "px");
+      }
+    }
+
+    async function hydrateFromAPI() {
+      const [products, categories, company, social, whatsapp, branding] = await Promise.all([
+        dataService.fetchProducts(),
+        dataService.fetchCategories(),
+        dataService.fetchCompanyInformation(),
+        dataService.fetchSocialMediaLinks(),
+        dataService.fetchWhatsAppSettings(),
+        dataService.fetchBrandingSettings()
+      ]);
+      state.products = products === null ? LOCAL_DATA.products.slice() : mergeProducts(products);
+      state.categories = (Array.isArray(categories) ? categories : LOCAL_DATA.categories).filter(function (item) {
+        return !isExcludedCategory(item.id) && !isExcludedCategory(item.name);
+      });
+      if (!state.categories.length) state.categories = LOCAL_DATA.categories.slice();
+      state.company = { ...LOCAL_DATA.company, ...(company || {}) };
+      state.social = { ...CONFIG.social, ...(social || {}) };
+      setWhatsAppDestination(whatsapp);
+      setBrandingSettings(branding);
+      const booklet = await dataService.fetchBookletContent();
+      state.bookletProducts = mergeProducts(booklet);
+      state.dataReady = true;
+      renderApp();
+    }
+
+    document.addEventListener("click", function (event) {
+      const routeLink = event.target.closest("[data-route]");
+      if (routeLink && event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+        event.preventDefault();
+        const view = routeLink.dataset.route;
+        const options = {};
+        if (routeLink.dataset.id) options.id = routeLink.dataset.id;
+        if (routeLink.dataset.category) options.category = routeLink.dataset.category;
+        if (view === "booklet" && routeLink.dataset.page) options.page = Number(routeLink.dataset.page);
+        navigate(view, options);
+        return;
+      }
+      const sectionLink = event.target.closest("[data-section]");
+      if (sectionLink) {
+        event.preventDefault();
+        navigate("home", { section: sectionLink.dataset.section });
+        return;
+      }
+      const filter = event.target.closest("[data-filter]");
+      if (filter) {
+        const scope = filter.closest("[data-filter-scope]")?.dataset.filterScope || "listing";
+        if (scope === "home") {
+          state.homeCategory = filter.dataset.filter;
+          document.querySelectorAll('[data-filter-scope="home"] .category-tab').forEach(function (tab) {
+            const active = tab.dataset.filter === state.homeCategory;
+            tab.classList.toggle("is-active", active);
+            tab.setAttribute("aria-pressed", String(active));
+          });
+          updateProductGrid("home");
+        } else {
+          state.listCategory = filter.dataset.filter;
+          document.querySelectorAll('[data-filter-scope="listing"] .category-tab').forEach(function (tab) {
+            const active = tab.dataset.filter === state.listCategory;
+            tab.classList.toggle("is-active", active);
+            tab.setAttribute("aria-pressed", String(active));
+          });
+          const url = new URL(window.location.href);
+          if (state.listCategory === "all") url.searchParams.delete("category");
+          else url.searchParams.set("category", state.listCategory);
+          window.history.replaceState({}, "", url);
+          updateProductGrid("listing");
+        }
+        return;
+      }
+      const galleryButton = event.target.closest("[data-gallery-index]");
+      if (galleryButton) {
+        const index = Number(galleryButton.dataset.galleryIndex) || 0;
+        const route = state.route;
+        const product = state.products.find(function (item) { return item.id === route.id; });
+        const images = product ? productImages(product) : [];
+        const mainImage = document.getElementById("productMainImage");
+        if (mainImage && images[index]) {
+          mainImage.src = assetURL(images[index]);
+          mainImage.dataset.asset = images[index];
+          mainImage.hidden = false;
+          const fallback = document.querySelector("#detailMainFrame .media-fallback");
+          if (fallback) fallback.hidden = true;
+          document.querySelectorAll(".detail-thumb").forEach(function (thumb) { thumb.classList.toggle("is-active", thumb === galleryButton); });
+          bindImageFallbacks(document.getElementById("detailMainFrame"));
+        }
+        return;
+      }
+      const bookletItem = event.target.closest("[data-booklet-index]");
+      if (bookletItem) {
+        setBookletIndex(Number(bookletItem.dataset.bookletIndex) || 0);
+        return;
+      }
+      const bookletStep = event.target.closest("[data-booklet-step]");
+      if (bookletStep && !bookletStep.disabled) {
+        setBookletIndex(state.bookletIndex + Number(bookletStep.dataset.bookletStep));
+      }
+    });
+
+    document.addEventListener("input", function (event) {
+      if (event.target && event.target.id === "productSearch") {
+        state.search = event.target.value;
+        updateProductGrid("listing");
+      }
+    });
+
+    document.addEventListener("submit", function (event) {
+      if (!event.target || !["contactForm", "scheduleForm"].includes(event.target.id)) return;
+      event.preventDefault();
+      if (!event.target.reportValidity()) return;
+      const formData = new FormData(event.target);
+      if (event.target.id === "scheduleForm") {
+        const subject = "Rangers Safety Systems exhibition meeting request";
+        const body = [
+          "Name: " + formData.get("name"),
+          "Company: " + formData.get("company"),
+          "Email: " + formData.get("email"),
+          "Phone: " + formData.get("phone"),
+          "Preferred date: " + formData.get("date"),
+          "Preferred time: " + formData.get("time"),
+          "",
+          String(formData.get("message") || "")
+        ].join("\n");
+        const status = document.getElementById("scheduleStatus");
+        if (status) status.textContent = "Opening your email application with the meeting request.";
+        window.location.href = "mailto:" + (state.company.email || LOCAL_DATA.company.email) + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+        return;
+      }
+      const subject = "Rangers Safety Systems enquiry - " + (formData.get("category") || "General enquiry");
+      const body = [
+        "Name: " + formData.get("name"),
+        "Company: " + formData.get("company"),
+        "Email: " + formData.get("email"),
+        "Phone: " + formData.get("phone"),
+        "Product area: " + formData.get("category"),
+        "",
+        String(formData.get("message") || "")
+      ].join("\n");
+      const status = document.getElementById("formStatus");
+      if (status) status.textContent = "Opening your email application with the enquiry details.";
+      window.location.href = "mailto:" + (state.company.email || LOCAL_DATA.company.email) + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (state.route.view !== "booklet" || event.altKey || event.ctrlKey || event.metaKey || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName)) return;
+      if (event.key === "ArrowRight") setBookletIndex(state.bookletIndex + 1);
+      if (event.key === "ArrowLeft") setBookletIndex(state.bookletIndex - 1);
+    });
+
+    document.getElementById("whatsappFloat").addEventListener("click", function () {
+      window.open(state.whatsappUrl || CONFIG.whatsappUrl, "_blank", "noopener,noreferrer");
+    });
+
+    document.getElementById("mobileMenuToggle").addEventListener("click", function () {
+      const nav = document.getElementById("mainNav");
+      const expanded = this.getAttribute("aria-expanded") === "true";
+      this.setAttribute("aria-expanded", String(!expanded));
+      this.setAttribute("aria-label", expanded ? "Open navigation menu" : "Close navigation menu");
+      if (nav) nav.classList.toggle("is-open", !expanded);
+    });
+    if (window.jQuery) $(document).on("click", "#mainNav a", function () { closeMobileMenu(); });
+
+    window.addEventListener("popstate", function () {
+      state.route = routeFromLocation();
+      if (state.route.view === "booklet") state.bookletIndex = state.route.page;
+      if (state.route.view === "products" || state.route.view === "exhibition") state.listCategory = state.route.category;
+      renderApp();
+    });
+    window.addEventListener("scroll", updateHeaderOnScroll, { passive: true });
+    window.addEventListener("resize", updateHeaderOnScroll);
+
+    document.getElementById("copyrightYear").textContent = new Date().getFullYear();
+    state.route = routeFromLocation();
+    state.listCategory = state.route.category;
+    state.bookletIndex = state.route.page;
+    renderApp();
+    if (new URLSearchParams(window.location.search).get("welcome") === "website") {
+      const popup = document.getElementById("siteWelcomePopup");
+      const close = popup.querySelector(".site-welcome-close");
+      const dismiss = function () {
+        popup.classList.remove("is-visible");
+        window.setTimeout(function () { popup.hidden = true; }, 220);
+      };
+      popup.hidden = false;
+      requestAnimationFrame(function () { popup.classList.add("is-visible"); close.focus(); });
+      popup.querySelector(".site-welcome-continue").addEventListener("click", dismiss);
+      close.addEventListener("click", dismiss);
+      popup.addEventListener("click", function (event) { if (event.target === popup) dismiss(); });
+      document.addEventListener("keydown", function (event) { if (event.key === "Escape" && !popup.hidden) dismiss(); });
+    }
+    if (/^https?:$/.test(window.location.protocol)) hydrateFromAPI().catch(function () {});
+  </script>
+<script src="cms-bridge.js"></script>
+</body>
+</html>

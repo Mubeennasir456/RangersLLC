@@ -1,0 +1,18 @@
+RANGERS SAFETY SYSTEMS — ALL-IN-ONE BUNDLE
+
+1. Extract this ZIP. Copy the folder named rangers-backend to C:\xampp\htdocs\rangers-backend
+2. Start Apache and MySQL from XAMPP.
+3. Open http://localhost/phpmyadmin and import database/schema.sql (fresh installation).
+4. Open XAMPP Shell, run:
+   cd C:\xampp\htdocs\rangers-backend
+   php tools/create_admin.php admin@rangers.com "Rangers Admin"
+   Enter a NEW strong password (12+ characters). No preset password is included.
+5. Website: http://localhost/rangers-backend/
+6. Admin login: http://localhost/rangers-backend/admin/
+7. CMS: after login, choose Page CMS in the sidebar.
+8. For a preexisting database, read README.md before importing any migrations.
+
+IMPORTANT: This is a development bundle, NOT a tested production-ready CMS.
+Only the supplied frontend assets are included. PHP/MySQL end-to-end behavior has not been verified on XAMPP.
+Arbitrary animation JavaScript, video upload, and full WordPress-style page building are NOT implemented.
+Never share your admin password with others.
