@@ -1,0 +1,5 @@
+-- CMS migration for existing installs. Select rangers_safety_systems database first.
+
+CREATE TABLE IF NOT EXISTS cms_pages(id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,slug VARCHAR(100) NOT NULL UNIQUE,title VARCHAR(200) NOT NULL,status ENUM('active','inactive') DEFAULT 'active',sort_order INT DEFAULT 0,updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS cms_elements(id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,page_slug VARCHAR(100) NOT NULL,element_key VARCHAR(255) NOT NULL,kind ENUM('text','image','video','link','html','style') NOT NULL DEFAULT 'text',content MEDIUMTEXT NOT NULL,updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,UNIQUE KEY unique_element(page_slug,element_key));
+INSERT INTO cms_pages(slug,title,sort_order) VALUES ('home','Home',1),('products','Products',2),('product','Product Details',3),('exhibition','Exhibition',4),('booklet','Digital Catalogue',5),('schedule','Schedule Meeting',6),('contact','Contact',7),('print-catalogue','Print Catalogue',8),('global','Header and Footer',9) ON DUPLICATE KEY UPDATE title=VALUES(title);
